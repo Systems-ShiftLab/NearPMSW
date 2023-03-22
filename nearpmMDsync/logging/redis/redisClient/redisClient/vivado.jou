@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon May 23 12:30:58 2022
+# Process ID: 117460
+# Current directory: /mnt/AA50F1DA50F1AD67/ASPLOS22/nearpm/logging/redis/redisClient/redisClient
+# Command line: vivado
+# Log file: /mnt/AA50F1DA50F1AD67/ASPLOS22/nearpm/logging/redis/redisClient/redisClient/vivado.log
+# Journal file: /mnt/AA50F1DA50F1AD67/ASPLOS22/nearpm/logging/redis/redisClient/redisClient/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.runs/impl_1/design_5_wrapper.bit} [get_hw_devices xcvu9p_0]
+set_property PROBES.FILE {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.runs/impl_1/design_5_wrapper.ltx} [get_hw_devices xcvu9p_0]
+set_property FULL_PROBES.FILE {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.runs/impl_1/design_5_wrapper.ltx} [get_hw_devices xcvu9p_0]
+current_hw_device [get_hw_devices xcvu9p_0]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_5_i/ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_5_i/ila_1"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_5_i/ila_2"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_5_i/ila_3"}]]
+set_property PROBES.FILE {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.runs/impl_1/design_5_wrapper.ltx} [get_hw_devices xcvu9p_0]
+set_property FULL_PROBES.FILE {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.runs/impl_1/design_5_wrapper.ltx} [get_hw_devices xcvu9p_0]
+set_property PROGRAM.FILE {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.runs/impl_1/design_5_wrapper.bit} [get_hw_devices xcvu9p_0]
+program_hw_devices [get_hw_devices xcvu9p_0]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]

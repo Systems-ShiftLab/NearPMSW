@@ -1,0 +1,52 @@
+
+running fillseq 
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:12:06,stree,1000000,16,208.850000,/mnt/pmem/pmemkv,110.626221,0.351000,100,,193.333023,5172.422363,0.572206
+running fillrandom 
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillrandom,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:15:20,stree,1000000,16,211.260000,/mnt/pmem/pmemkv,110.626221,0.610000,100,,149.714447,6679.382324,0.738915
+running fillseq 
+running overwrite 00 ops                              
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:17:50,stree,1000000,16,211.129000,/mnt/pmem/pmemkv,110.626221,0.522000,100,,192.990891,5181.591309,0.573220
+2,overwrite,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:21:03,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,,62.398121,16026.124023,1.772910
+running fillseq 
+running readseq 0000 ops                              
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:22:06,stree,1000000,16,211.840000,/mnt/pmem/pmemkv,110.626221,0.617000,100,,193.676865,5163.239746,0.571190
+2,readseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:25:20,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,(1000000 of 1000000 found by one thread),41.767269,23942.193359,2.648634
+running fillseq 
+running readrandom 0 ops                              
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:26:01,stree,1000000,16,209.640000,/mnt/pmem/pmemkv,110.626221,0.636000,100,,193.902161,5157.240234,0.570526
+2,readrandom,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:29:15,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,(1000000 of 1000000 found by one thread),43.050594,23228.484375,2.569679
+running fillseq 
+running readmissing  ops                              
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:29:59,stree,1000000,16,210.606000,/mnt/pmem/pmemkv,110.626221,0.693000,100,,192.858566,5185.146973,0.573613
+2,readmissing,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:33:12,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,(1 of 1000000 found by one thread),40.676304,24584.337891,0.375130
+running fillseq 
+running deleteseq 00 ops                              
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:33:52,stree,1000000,16,210.268000,/mnt/pmem/pmemkv,110.626221,0.635000,100,,192.576035,5192.754395,0.574455
+2,deleteseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:37:05,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,,137.175827,7289.914062,0.000000
+running fillseq 
+running deleterandom ops                              
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:39:22,stree,1000000,16,211.048000,/mnt/pmem/pmemkv,110.626221,0.571000,100,,193.797104,5160.035645,0.570835
+2,deleterandom,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:42:36,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,,119.056099,8399.401367,0.000000
+running fillseq 
+running readwhilewriting                              
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:44:35,stree,1000000,16,210.682000,/mnt/pmem/pmemkv,110.626221,0.596000,100,,194.847229,5132.225586,0.567759
+2,readwhilewriting,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:47:51,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,,6556.000000,152.532028,0.000000
+running fillseq 
+running readrandomwriterandom                         
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:47:51,stree,1000000,16,211.198000,/mnt/pmem/pmemkv,110.626221,0.609000,100,,192.285721,5200.594238,0.575322
+2,readrandomwriterandom,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:51:03,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,(reads:900000 writes:100000 total:1000000 found:900000),46.201656,21644.246094,2.394421
+running fillseq 
+running txfillrandom ops                              
+terminate called after throwing an instance of 'pmem::kv::bad_result_access'
+  what():  bad_result_access: value doesn't exist
+Aborted

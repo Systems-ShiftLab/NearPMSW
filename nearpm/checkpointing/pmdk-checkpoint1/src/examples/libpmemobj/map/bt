@@ -1,0 +1,27 @@
+Program received signal SIGABRT, Aborted.
+__GI_raise (sig=sig@entry=6) at ../sysdeps/unix/sysv/linux/raise.c:50
+50	../sysdeps/unix/sysv/linux/raise.c: No such file or directory.
+(gdb) bt
+#0  __GI_raise (sig=sig@entry=6) at ../sysdeps/unix/sysv/linux/raise.c:50
+#1  0x00007ffff7d33859 in __GI_abort () at abort.c:79
+#2  0x00007ffff7f565f7 in out_fatal (file=0x7ffff7fb48cc "palloc.c", line=268, 
+    func=0x7ffff7fb4a50 <__func__.28681> "palloc_heap_action_exec", 
+    fmt=0x7ffff7fb48b6 "assertion failure: %s")
+    at ../../src/../src/core/out.c:549
+#3  0x00007ffff7f967dd in palloc_heap_action_exec (heap=0x7fffed601a30, 
+    act=0x555555f270c0, ctx=0x55555558d3e0) at palloc.c:268
+#4  0x00007ffff7f9728e in palloc_exec_actions (heap=0x7fffed601a30, 
+    ctx=0x55555558d3e0, actv=0x555555f27040, actvcnt=3) at palloc.c:555
+#5  0x00007ffff7f97614 in palloc_publish (heap=0x7fffed601a30, 
+    actv=0x555555f27040, actvcnt=3, ctx=0x55555558d3e0) at palloc.c:660
+#6  0x00007ffff7fa0ad7 in pmemobj_tx_commit () at tx.c:1071
+#7  0x00007ffff7fa0ef7 in pmemobj_tx_process () at tx.c:1165
+#8  0x000055555556b285 in hm_tx_create (pop=0x7fffed600000, 
+    map=0x7fffed9c0550, arg=0x7fffffffe084) at hashmap_tx.c:450
+#9  0x000055555555a78e in map_hm_tx_create (pop=0x7fffed600000, 
+    map=0x7fffed9c0550, arg=0x7fffffffe084) at map_hashmap_tx.c:56
+#10 0x0000555555558827 in map_create (mapc=0x555555f26e10, map=0x7fffed9c0550, 
+    arg=0x7fffffffe084) at map.c:55
+#11 0x000055555555841c in main (argc=3, argv=0x7fffffffe598) at mapcli.c:260
+(gdb) q
+

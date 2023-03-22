@@ -1,0 +1,21 @@
+$date
+        2022-Feb-10 12:12:26
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 5 " design_1_i/memops_scheduler_0_start_count [4:0] $end
+$var reg 5 ' design_1_i/memops_scheduler_0_done_count [4:0] $end
+$var reg 8 , design_1_i/memops_scheduler_0_ndp_start [7:0] $end
+$var reg 8 4 design_1_i/memops_scheduler_0_ndp_done [7:0] $end
+$var reg 32 < design_1_i/memops_scheduler_0_regout [31:0] $end
+$var reg 64 \ design_1_i/memops_scheduler_0_time_cycles [63:0] $end
+$var reg 1 >" _TRIGGER $end
+$var reg 1 ?" _WINDOW $end
+$var reg 1 @" _GAP $end
+$upscope $end
+$enddefinitions $end

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+sudo rm -rf /mnt/mem/*
+sudo ./data_store $1 /mnt/mem/map 10000 > out
+cat out
+grep "timelog" out > time
+awk '{sum+= $3;} END{print sum;}' time

@@ -1,0 +1,2118 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:02:38 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 2651
+License: Customer
+
+Current time: 	Sat Apr 03 18:10:25 EDT 2021
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Ubuntu
+OS Version: 5.4.0-52-generic
+OS Architecture: amd64
+Available processors (cores): 16
+
+Display: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 92
+Available screens: 1
+Available disk space: 6 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/opt/Xilinx/Vivado/2018.2/tps/lnx64/jre
+Java executable location: 	/opt/Xilinx/Vivado/2018.2/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	oem
+User home directory: /home/oem
+User working directory: /home/oem/Research/Research/pmdk/src/examples/libpmemobj/map
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2018.2
+RDI_DATADIR: /opt/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: /home/oem/.Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: /home/oem/.Xilinx/Vivado/2018.2/
+Vivado layouts directory: /home/oem/.Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	/home/oem/Research/Research/pmdk/src/examples/libpmemobj/map/vivado.log
+Vivado journal file location: 	/home/oem/Research/Research/pmdk/src/examples/libpmemobj/map/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-2651-desk053
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_PLANAHEAD: /opt/Xilinx/Vivado/2018.2
+XILINX_SDK: /opt/Xilinx/SDK/2018.2
+XILINX_VIVADO: /opt/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	159 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 912 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 74 MB (+74624kb) [00:00:04]
+// [Engine Memory]: 910 MB (+803219kb) [00:00:04]
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.xpr", 0); // q (O, ck)
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// Tcl Message: open_project /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.xpr 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// HMemoryUtils.trashcanNow. Engine heap size: 968 MB. GUI used memory: 36 MB. Current time: 4/3/21 6:10:27 PM EDT
+// [Engine Memory]: 968 MB (+12482kb) [00:00:09]
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,352 MB (+352011kb) [00:00:14]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 77 MB (+29kb) [00:00:27]
+// [Engine Memory]: 1,442 MB (+23365kb) [00:00:27]
+// [GUI Memory]: 88 MB (+6919kb) [00:00:27]
+// [GUI Memory]: 94 MB (+2060kb) [00:00:27]
+// [GUI Memory]: 100 MB (+1177kb) [00:00:27]
+// [GUI Memory]: 110 MB (+4993kb) [00:00:27]
+// [GUI Memory]: 115 MB (+154kb) [00:00:28]
+// [GUI Memory]: 126 MB (+5219kb) [00:00:28]
+// [GUI Memory]: 133 MB (+442kb) [00:00:29]
+// Tcl Message: open_project /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,472 MB. GUI used memory: 96 MB. Current time: 4/3/21 6:10:49 PM EDT
+// Tcl Message: open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:22 . Memory (MB): peak = 6522.086 ; gain = 428.605 ; free physical = 58722 ; free virtual = 63078 
+// Project name: PCIeMEM; location: /home/oem/RTL/backups/Undolog2/PCIeMEM; part: xcvu9p-flga2104-2L-e
+// Elapsed time: 23 seconds
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 1,909 MB (+414222kb) [00:00:32]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 71 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:18:37     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// bx (ck):  Auto Connect : addNotify
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A6270C 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xcvu9p_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {/home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xcvu9p_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {/home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xcvu9p_0] 
+// Tcl Message: current_hw_device [get_hw_devices xcvu9p_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_MIG_ADD
+// [Engine Memory]: 2,022 MB (+18153kb) [00:01:47]
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0] 
+// TclEventType: HW_ILA_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,056 MB. GUI used memory: 99 MB. Current time: 4/3/21 6:12:07 PM EDT
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [GUI Memory]: 141 MB (+1138kb) [00:01:50]
+// [GUI Memory]: 148 MB (+391kb) [00:01:51]
+closeView(PAResourceOtoP.PAViews_MIG, "MIG - MIG_1"); // e
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-2302] Device xcvu9p (JTAG device index = 0) is programmed with a design that has 4 ILA core(s). INFO: [Labtools 27-2302] Device xcvu9p (JTAG device index = 0) is programmed with a design that has 1 MIG core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_1"}]] 
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]] 
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_3"}]] 
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.hw/backup/hw_ila_data_4.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// [Engine Memory]: 2,161 MB (+39801kb) [00:01:52]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+dismissDialog("Auto Connect"); // bx (ck)
+// [GUI Memory]: 158 MB (+2521kb) [00:02:08]
+// [GUI Memory]: 168 MB (+2227kb) [00:07:48]
+// [GUI Memory]: 178 MB (+1525kb) [00:15:18]
+// Elapsed time: 1469 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "hw_ila_1 ; Idle", 5, "hw_ila_1", 0, false); // t (O, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 0); // k (j, ck)
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Apr-03 18:36:45 
+// [GUI Memory]: 188 MB (+1367kb) [00:26:30]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_2", 1); // k (j, ck)
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_1"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2021-Apr-03 18:36:55 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_3", 2); // k (j, ck)
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "design_1_i/memops_scheduler_1_ndp_start[7:0] ; !=   ; [H]   ; 00 ; probe3[7:0] ; 1 of 1", 1, "design_1_i/memops_scheduler_1_ndp_start[7:0]", 0); // A (O, ck)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE eq8'hXX [get_hw_probes design_1_i/memops_scheduler_1_ndp_start -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]] 
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "design_1_i/memops_scheduler_1_ndp_done[7:0] ; ==   ; [H]   ; XX ; probe8[7:0] ; ", 0, "XX", 3); // A (O, ck)
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "XX", 0, "Value", 3); // A (O, ck)
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "design_1_i/memops_scheduler_1_ndp_done[7:0] ; ==   ; [H]   ; XX ; probe8[7:0] ; ", 0, "==  ", 1); // A (O, ck)
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "==  ", 0, "Operator", 1); // A (O, ck)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE neq8'hXX [get_hw_probes design_1_i/memops_scheduler_1_ndp_done -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]] 
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "design_1_i/memops_scheduler_1_ndp_done[7:0] ; !=   ; [H]   ; XX ; probe8[7:0] ; ", 0, "XX", 3); // A (O, ck)
+setText(PAResourceOtoP.ProbeValueTablePanel_TEXT_FIELD, "00"); // bV (Q, ResizableWindow)
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "XX", 0, "Value", 3); // A (O, ck)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE neq8'h00 [get_hw_probes design_1_i/memops_scheduler_1_ndp_done -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]] 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_4", 3); // k (j, ck)
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_3"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_4' trigger was armed at 2021-Apr-03 18:37:12 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_1"}]\   [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_3"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_1"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2021-Apr-03 18:37:26 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,188 MB. GUI used memory: 135 MB. Current time: 4/3/21 6:37:26 PM EDT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_3"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_4' triggered at 2021-Apr-03 18:37:26 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.hw/backup/hw_ila_data_4.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_3", 2); // k (j, ck)
+selectButton(PAResourceTtoZ.TriggerStatusPanel_STOP_TRIGGER_FOR_THIS_ILA_CORE, "ILA_stop_trigger"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// HOptionPane Warning: 'There are no armed ILAs. (Stop Trigger)'
+selectButton("PAResourceQtoS.StopTrigger_THERE_NO_ARMED_ILAS_OK", "OK"); // JButton (A, G)
+selectButton(PAResourceTtoZ.TriggerStatusPanel_STOP_TRIGGER_FOR_THIS_ILA_CORE, "ILA_stop_trigger"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// HOptionPane Warning: 'There are no armed ILAs. (Stop Trigger)'
+selectButton("PAResourceQtoS.StopTrigger_THERE_NO_ARMED_ILAS_OK", "OK"); // JButton (A, G)
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2021-Apr-03 18:37:42 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,188 MB. GUI used memory: 170 MB. Current time: 4/3/21 6:37:42 PM EDT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2021-Apr-03 18:37:42 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 20 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 278, 158); // n (o, ck)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 197, 199); // n (o, ck)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,180 MB. GUI used memory: 143 MB. Current time: 4/3/21 6:38:03 PM EDT
+// Elapsed time: 12 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2021-Apr-03 18:38:16 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2021-Apr-03 18:38:28 INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 25 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ck)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 140 MB. Current time: 4/3/21 6:38:41 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 533, 200); // n (o, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 151 MB. Current time: 4/3/21 6:38:46 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 134 MB. Current time: 4/3/21 6:38:46 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 231, 210); // n (o, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 143 MB. Current time: 4/3/21 6:38:48 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 137 MB. Current time: 4/3/21 6:38:48 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 136 MB. Current time: 4/3/21 6:38:48 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 134 MB. Current time: 4/3/21 6:38:48 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 134 MB. Current time: 4/3/21 6:38:48 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 13, 279); // n (o, ck)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 134 MB. Current time: 4/3/21 6:38:52 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 45, 280); // n (o, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 136 MB. Current time: 4/3/21 6:38:56 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 135 MB. Current time: 4/3/21 6:38:56 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 139 MB. Current time: 4/3/21 6:38:56 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 139 MB. Current time: 4/3/21 6:38:56 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 139 MB. Current time: 4/3/21 6:38:56 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 134 MB. Current time: 4/3/21 6:38:56 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 139 MB. Current time: 4/3/21 6:38:56 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 134 MB. Current time: 4/3/21 6:38:56 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 134 MB. Current time: 4/3/21 6:38:56 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 138 MB. Current time: 4/3/21 6:38:57 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 142 MB. Current time: 4/3/21 6:38:57 PM EDT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 306, 288); // n (o, ck)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 134 MB. Current time: 4/3/21 6:38:59 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 134 MB. Current time: 4/3/21 6:38:59 PM EDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 165 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (O, ck)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 6); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// HMemoryUtils.trashcanNow. Engine heap size: 2,183 MB. GUI used memory: 138 MB. Current time: 4/3/21 6:41:48 PM EDT
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Peripheral ;  ;  ;  ; ", 11); // O (O, ck)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "memops_scheduler_v1.1 ; AXI4 ; Pre-Production ; Included ; user.org:user:memops_scheduler:1.1", 12, "memops_scheduler_v1.1", 0, false); // O (O, ck)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "memops_scheduler_v1.1 ; AXI4 ; Pre-Production ; Included ; user.org:user:memops_scheduler:1.1", 12, "memops_scheduler_v1.1", 0, false, false, false, false, true, false); // O (O, ck) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k (ck): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// bx (ck):  Edit in IP Packager : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name memops_scheduler_v1_1_project -directory /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.tmp/memops_scheduler_v1_1_project /home/oem/RTL/backups/Undolog2/ip_repo/memops_scheduler_1.1/component.xml 
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'. INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'. 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/oem/RTL/backups/Undolog2/ip_repo/undolog_2.1'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/oem/RTL/backups/Undolog2/ip_repo/undolog_2.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/oem/RTL/backups/Undolog2/ip_repo/undolog_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/oem/RTL/ip_repo/AXI_Lite_slave_plug_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/oem/RTL/ip_repo/AXI_DMA_driver_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/oem/RTL/backups/Undolog2/ip_repo/memops_scheduler_1.1'. INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// 'i' command handler elapsed time: 4 seconds
+dismissDialog("Edit in IP Packager"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, memops_scheduler_v1_1 (memops_scheduler_v1_1.v)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, memops_scheduler_v1_1 (memops_scheduler_v1_1.v), memops_scheduler_v1_1_M01_AXI_inst : memops_scheduler_v1_1_M00_AXI (memops_scheduler_v1_1_M00_AXI.v)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, memops_scheduler_v1_1 (memops_scheduler_v1_1.v), memops_scheduler_v1_1_M01_AXI_inst : memops_scheduler_v1_1_M00_AXI (memops_scheduler_v1_1_M00_AXI.v)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [Engine Memory]: 2,273 MB (+4509kb) [00:31:54]
+// [GUI Memory]: 199 MB (+999kb) [00:32:02]
+// Elapsed time: 48 seconds
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 289, 230); // ce (w, ck)
+// [GUI Memory]: 209 MB (+531kb) [00:36:13]
+// Elapsed time: 306 seconds
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 398, 282); // ce (w, ck)
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 398, 282, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 399, 292); // ce (w, ck)
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 399, 292, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 407, 307); // ce (w, ck)
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 407, 307, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 410, 320); // ce (w, ck)
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 410, 320, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 322, 417); // ce (w, ck)
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 322, 417, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 269, 400); // ce (w, ck)
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 269, 400, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 45 seconds
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 414, 223); // ce (w, ck)
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 414, 223, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 405, 236); // ce (w, ck)
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 405, 236, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 286, 420); // ce (w, ck)
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 286, 420, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 318, 213); // ce (w, ck)
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 458, 230, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ad (aj, Popup.HeavyWeightWindow)
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 405, 364); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 371, 192); // ce (w, ck)
+typeControlKey((HResource) null, "memops_scheduler_v1_1_M00_AXI.v", 'v'); // ce (w, ck)
+selectCodeEditor("memops_scheduler_v1_1_M00_AXI.v", 239, 208); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,290 MB. GUI used memory: 155 MB. Current time: 4/3/21 6:49:43 PM EDT
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - memops_scheduler", 1); // k (j, ck)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // ao (O, ck)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from File Groups Wizard"); // h (M, ck)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ao (O, ck)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, ck)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 169 [ipx::current_core] 
+// Tcl Message: ipx::update_source_project_archive -component [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// bx (ck):  Package IP : addNotify
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: ipx::move_temp_component_back -component [ipx::current_core] 
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,298 MB. GUI used memory: 163 MB. Current time: 4/3/21 6:50:01 PM EDT
+// Tcl Message: close_project -delete 
+dismissDialog("Package IP"); // bx (ck)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -repo_path /home/oem/RTL/backups/Undolog2/ip_repo/memops_scheduler_1.1 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/oem/RTL/backups/Undolog2/ip_repo/memops_scheduler_1.1' 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bx (ck):  Open Block Design : addNotify
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/design_1.bd} 
+// Tcl Message: INFO: [xilinx.com:ip:ila:6.2-6] /ila_2: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details. 
+// Tcl Message: INFO: [xilinx.com:ip:ila:6.2-6] /ila_3: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details. 
+// Tcl Message: Adding cell -- xilinx.com:ip:ila:6.2 - ila_0 
+// Tcl Message: INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details. 
+// Tcl Message: Adding cell -- xilinx.com:module_ref:addrmonitor:1.0 - addrmonitor_0 Adding cell -- xilinx.com:ip:ila:6.2 - ila_1 
+// Tcl Message: INFO: [xilinx.com:ip:ila:6.2-6] /ila_1: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details. 
+// Tcl Message: Adding cell -- user.org:user:undolog:2.1 - undolog_0 Adding cell -- user.org:user:undolog:2.1 - undolog_1 Adding cell -- user.org:user:undolog:2.1 - undolog_2 Adding cell -- user.org:user:undolog:2.1 - undolog_3 Adding cell -- user.org:user:memops_scheduler:1.1 - memops_scheduler_1 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 2,400 MB (+13277kb) [00:39:57]
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,428 MB. GUI used memory: 158 MB. Current time: 4/3/21 6:50:18 PM EDT
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// 'bA' command handler elapsed time: 3 seconds
+dismissDialog("Open Block Design"); // bx (ck)
+selectButton(PAResourceQtoS.SystemTab_REPORT_IP_STATUS, "Report IP Status"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// bx (ck):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bx (ck)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, ck)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: upgrade_ip -vlnv user.org:user:memops_scheduler:1.1 [get_ips  design_1_memops_scheduler_1_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading '/home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/design_1.bd' 
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// bx (ck):  Upgrade IP : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_memops_scheduler_1_0 (memops_scheduler_v1.1 1.1) from revision 168 to revision 169 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : </home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/oem/RTL/backups/Undolog2/PCIeMEM/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips design_1_memops_scheduler_1_0] -no_script -sync -force -quiet 
+// aI (ck): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 2,764 MB (+255726kb) [00:40:07]
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a (aI)
+dismissDialog("Generate Output Products"); // aI (ck)
+// [Engine Memory]: 3,292 MB (+408991kb) [00:40:08]
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cM, ck)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: report_ip_status -name ip_status  
+// bx (ck):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [Device 21-403] Loading part xcvu9p-flga2104-2L-e 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,420 MB. GUI used memory: 154 MB. Current time: 4/3/21 6:50:39 PM EDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,451 MB. GUI used memory: 150 MB. Current time: 4/3/21 6:50:54 PM EDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// [Engine Memory]: 3,469 MB (+13548kb) [00:40:39]
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: xit::source_ipfile: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 8490.316 ; gain = 96.379 ; free physical = 56213 ; free virtual = 61031 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: xit::source_ipfile: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 8490.316 ; gain = 0.000 ; free physical = 56225 ; free virtual = 61043 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /design_1 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// HMemoryUtils.trashcanNow. Engine heap size: 3,604 MB. GUI used memory: 156 MB. Current time: 4/3/21 6:51:19 PM EDT
+// Tcl Message: Wrote  : </home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/design_1.bd>  VHDL Output written to : /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/synth/design_1.v VHDL Output written to : /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// Tcl Message: INFO: [BD 41-1637] Generated targets are already up-to-date for bd-design 'bd_45eb' - hence not re-generating. INFO: [BD 41-1029] Generation completed for the IP Integrator block ddr4_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block xdma_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ddr4_0_300M . INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf_0 . 
+// [Engine Memory]: 3,741 MB (+102589kb) [00:41:03]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh Generated Block Design Tcl file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl Generated Hardware Definition File /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,996 MB. GUI used memory: 148 MB. Current time: 4/3/21 6:51:39 PM EDT
+// [Engine Memory]: 4,033 MB (+110376kb) [00:41:21]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/hw_handoff/design_1_smartconnect_0_0.hwh Generated Block Design Tcl file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/hw_handoff/design_1_smartconnect_0_0_bd.tcl Generated Hardware Definition File /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/synth/design_1_smartconnect_0_0.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/ip/design_1_smartconnect_1_0/bd_0/hw_handoff/design_1_smartconnect_1_0.hwh Generated Block Design Tcl file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/ip/design_1_smartconnect_1_0/bd_0/hw_handoff/design_1_smartconnect_1_0_bd.tcl Generated Hardware Definition File /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/ip/design_1_smartconnect_1_0/bd_0/synth/design_1_smartconnect_1_0.hwdef 
+// Tcl Message: Exporting to file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_register_slice_0_0, cache-ID = 224b8eb5bc634f2b; cache size = 7256.950 MB. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_data_fifo_0_0, cache-ID = c1c545a8be3c50e2; cache size = 7256.950 MB. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_data_fifo_0_1, cache-ID = c1c545a8be3c50e2; cache size = 7256.950 MB. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_data_fifo_1_0, cache-ID = c1c545a8be3c50e2; cache size = 7256.950 MB. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_data_fifo_2_0, cache-ID = c1c545a8be3c50e2; cache size = 7256.950 MB. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_data_fifo_3_0, cache-ID = c1c545a8be3c50e2; cache size = 7256.950 MB. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_data_fifo_4_0, cache-ID = c1c545a8be3c50e2; cache size = 7256.950 MB. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_data_fifo_5_0, cache-ID = c1c545a8be3c50e2; cache size = 7256.950 MB. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_data_fifo_5_1, cache-ID = c1c545a8be3c50e2; cache size = 7256.950 MB. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_data_fifo_5_2, cache-ID = c1c545a8be3c50e2; cache size = 7256.950 MB. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_data_fifo_5_3, cache-ID = c1c545a8be3c50e2; cache size = 7256.950 MB. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_data_fifo_5_4, cache-ID = c1c545a8be3c50e2; cache size = 7256.950 MB. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// [Engine Memory]: 4,238 MB (+3213kb) [00:42:03]
+// [GUI Memory]: 291 MB (+75335kb) [00:42:04]
+// TclEventType: FILE_SET_NEW
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_ila_1_0, cache-ID = 997a979de2daf93b; cache size = 7256.950 MB. 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 189 MB. Current time: 4/3/21 6:52:24 PM EDT
+// TclEventType: RUN_ADD
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Apr  3 18:52:27 2021] Launched design_1_memops_scheduler_1_0_synth_1, synth_1... Run output will be captured here: design_1_memops_scheduler_1_0_synth_1: /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.runs/design_1_memops_scheduler_1_0_synth_1/runme.log synth_1: /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.runs/synth_1/runme.log [Sat Apr  3 18:52:27 2021] Launched impl_1... Run output will be captured here: /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:02:09 ; elapsed = 00:02:05 . Memory (MB): peak = 9747.379 ; gain = 1353.441 ; free physical = 55250 ; free virtual = 60249 
+// aP (ck): Launch Run Critical Messages: addNotify
+// Elapsed time: 127 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (aP)
+dismissDialog("Launch Run Critical Messages"); // aP (ck)
+// Elapsed time: 18 seconds
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cM, ck)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// bx (ck):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bx (ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 352ms to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,320 MB. GUI used memory: 163 MB. Current time: 4/3/21 6:55:34 PM EDT
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,321 MB. GUI used memory: 161 MB. Current time: 4/3/21 7:25:34 PM EDT
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk_sync_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk_sync_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk_sync_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk_sync_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk_sync_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk_sync_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk_sync_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk_sync_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk_sync_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk_sync_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xdma_0_m_axib_wdata 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xdma_0_m_axib_wdata 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xdma_0_m_axib_awaddr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xdma_0_m_axib_awaddr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ddr4_0_300M_1_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_ddr4_0_300M_1_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_0_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_0_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /memops_scheduler_0_ndp_not_inuse 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /memops_scheduler_0_ndp_not_inuse 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_addn_ui_clkout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_addn_ui_clkout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_addn_ui_clkout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_addn_ui_clkout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_wvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_wvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_wvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_wvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_wdata 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_wdata 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awaddr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awaddr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awaddr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awaddr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awaddr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awaddr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_dma_6_m_axis_mm2s_tvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_dma_6_m_axis_mm2s_tvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axis_data_fifo_6_s_axis_tready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axis_data_fifo_6_s_axis_tready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_dma_6_m_axis_mm2s_tlast 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_dma_6_m_axis_mm2s_tlast 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_dma_4_m_axis_mm2s_tlast 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_dma_4_m_axis_mm2s_tlast 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 2711 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sat Apr  3 19:38:02 2021] Launched impl_1... Run output will be captured here: /home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/runme.log 
+selectTab((HResource) null, (HResource) null, "Design Runs", 5); // aE (Q, ck)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlconstant_1_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk_sync_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk_sync_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xdma_0_m_axib_awaddr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xdma_0_m_axib_awaddr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xdma_0_axi_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xdma_0_axi_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /memops_scheduler_0_ndp_not_inuse 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /memops_scheduler_0_ndp_not_inuse 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_addn_ui_clkout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_addn_ui_clkout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awaddr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axis_data_fifo_6_s_axis_tready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axis_data_fifo_6_s_axis_tready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_dma_4_m_axis_mm2s_tvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_dma_4_m_axis_mm2s_tvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_dma_4_m_axis_mm2s_tlast 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_dma_4_m_axis_mm2s_tlast 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axis_data_fifo_4_s_axis_tready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axis_data_fifo_4_s_axis_tready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_dma_6_m_axis_mm2s_tlast 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_c0_ddr4_ui_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xdma_0_axi_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xdma_0_axi_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_addn_ui_clkout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_addn_ui_clkout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_addn_ui_clkout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ddr4_0_addn_ui_clkout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /proc_sys_reset_0_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awaddr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_awaddr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_wvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_wvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_wvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_wvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_wdata 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /addrmonitor_0_m00_axi_wdata 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /memops_scheduler_1_offset_read_addr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /memops_scheduler_1_offset_read_addr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /memops_scheduler_1_offset_read_addr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /memops_scheduler_1_offset_read_addr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /memops_scheduler_1_offset_read_addr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /memops_scheduler_1_offset_read_addr 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 213 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Waveform: addNotify
+// Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 306, 288); // n (o, ck)Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 306, 288); // n (o, ck)Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 306, 288); // n (o, ck)Waveform: addNotify
+// Waveform: addNotify
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcvu9p_0 (6) ; Programmed", 2, "xcvu9p_0 (6)", 0, true); // t (O, ck) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xcvu9p_0 (6) ; Programmed", 2, "xcvu9p_0 (6)", 0, true, false, false, false, true, false); // t (O, ck) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+dismissDialog("Program Device"); // bB (ck)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {/home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xcvu9p_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {/home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xcvu9p_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/oem/RTL/backups/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xcvu9p_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_MIG_DELETE
+closeView(PAResourceOtoP.PAViews_MIG, "MIG - MIG_1"); // e
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: program_hw_devices [get_hw_devices xcvu9p_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:47 ; elapsed = 00:00:46 . Memory (MB): peak = 9747.379 ; gain = 0.000 ; free physical = 54095 ; free virtual = 60198 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_MIG_ADD
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 46 seconds
+closeView(PAResourceOtoP.PAViews_MIG, "MIG - MIG_1"); // e
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xcvu9p (JTAG device index = 0) is programmed with a design that has 4 ILA core(s). INFO: [Labtools 27-2302] Device xcvu9p (JTAG device index = 0) is programmed with a design that has 1 MIG core(s). 
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_ILA_CHANGE
+// 'I' command handler elapsed time: 47 seconds
+dismissDialog("Program Device"); // bx (ck)
+// TclEventType: HW_MIG_REFRESH

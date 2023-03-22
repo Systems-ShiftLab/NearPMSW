@@ -1,0 +1,24 @@
+$date
+        2021-Apr-04 08:43:31
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 64 " design_1_i/memops_scheduler_1_ulog_offset_reg [63:0] $end
+$var reg 64 b design_1_i/memops_scheduler_1_log_src_reg [63:0] $end
+$var reg 4 D" design_1_i/memops_scheduler_1_mst_exec_state [3:0] $end
+$var reg 8 H" design_1_i/memops_scheduler_1_ndp_start [7:0] $end
+$var reg 1 P" design_1_i/memops_scheduler_1_offset_reg1_valid $end
+$var reg 1 Q" design_1_i/memops_scheduler_1_offset_reg2_valid $end
+$var reg 2 R" design_1_i/memops_scheduler_1_vaddr_offset_count [1:0] $end
+$var reg 1 T" design_1_i/memops_scheduler_1_offset_read_enable $end
+$var reg 8 U" design_1_i/memops_scheduler_1_ndp_done [7:0] $end
+$var reg 1 ]" _TRIGGER $end
+$var reg 1 ^" _WINDOW $end
+$var reg 1 _" _GAP $end
+$upscope $end
+$enddefinitions $end

@@ -1,0 +1,21 @@
+$date
+        2021-Apr-07 17:53:37
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " design_1_i/undolog_0_data_copy_pulse $end
+$var reg 1 # design_1_i/undolog_0_datacpy_done $end
+$var reg 64 $ design_1_i/undolog_0_log_size [63:0] $end
+$var reg 64 d design_1_i/undolog_0_log_src [63:0] $end
+$var reg 64 F" design_1_i/undolog_0_ulog_offset [63:0] $end
+$var reg 32 (# design_1_i/undolog_0_regout [31:0] $end
+$var reg 1 H# _TRIGGER $end
+$var reg 1 I# _WINDOW $end
+$var reg 1 J# _GAP $end
+$upscope $end
+$enddefinitions $end

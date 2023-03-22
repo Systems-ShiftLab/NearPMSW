@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jan 31 16:28:59 2023
+# Process ID: 3618523
+# Current directory: /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/checkpointing/pmemkv-bench-chekpointing
+# Command line: vivado
+# Log file: /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/checkpointing/pmemkv-bench-chekpointing/vivado.log
+# Journal file: /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/checkpointing/pmemkv-bench-chekpointing/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /mnt/AA50F1DA50F1AD67/temp/NearPM/NearPM.xpr
+update_compile_order -fileset sources_1
+open_hw

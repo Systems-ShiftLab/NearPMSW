@@ -1,0 +1,6 @@
+make
+sudo rm -rf /mnt/mem/*
+sudo ./tatp_nvm > out
+cat out
+grep "timecp" out > time
+awk '{sum+= $3;} END{print sum;}' time

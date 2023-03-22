@@ -1,0 +1,7 @@
+page fault handler initialized!!
+opened device without error!!
+opened device without error!!
+vaddr 0x7f0a8c1c0550 pmemobjid 2
+cp 0.000005
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillrandom,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,03/03/23 10:42:23,cmap,10000,16,149.028000,/mnt/pmem/pmemkv,1.106262,100,,117.861099,8484.563477,0.938615

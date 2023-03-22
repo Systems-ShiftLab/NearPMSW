@@ -1,0 +1,17 @@
+$date
+        2022-May-23 12:34:53
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 8 " design_5_i/dimm_scheduler_0_test_nearrPM_status [7:0] $end
+$var reg 5 * design_5_i/dimm_scheduler_0_test_scheduler_state [4:0] $end
+$var reg 1 / _TRIGGER $end
+$var reg 1 0 _WINDOW $end
+$var reg 1 1 _GAP $end
+$upscope $end
+$enddefinitions $end

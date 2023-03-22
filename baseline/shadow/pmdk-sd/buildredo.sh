@@ -1,0 +1,4 @@
+make clobber
+make -j12   EXTRA_CFLAGS+=-DUSE_NDP_REDO  EXTRA_CFLAGS+=-DRUN_COUNT=1
+make   EXTRA_CFLAGS+=-DUSE_NDP_REDO  EXTRA_CFLAGS+=-DRUN_COUNT=1
+cat buildredo.sh 

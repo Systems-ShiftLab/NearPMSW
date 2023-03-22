@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun 11 10:05:13 2022
+# Process ID: 3443880
+# Current directory: /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/pmemkv-bench
+# Command line: vivado
+# Log file: /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/pmemkv-bench/vivado.log
+# Journal file: /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/pmemkv-bench/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/mnt/AA50F1DA50F1AD67/NDP-vivado-new/ip_repo/AXI_Lite_slave_plug_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:01:47 ; elapsed = 00:01:28 . Memory (MB): peak = 6813.922 ; gain = 735.617 ; free physical = 19890 ; free virtual = 28271
+open_hw
+open_hw: Time (s): cpu = 00:01:53 ; elapsed = 00:00:09 . Memory (MB): peak = 9733.348 ; gain = 0.000 ; free physical = 19052 ; free virtual = 27463
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:18:37
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:02:15 ; elapsed = 00:00:12 . Memory (MB): peak = 10200.461 ; gain = 467.113 ; free physical = 18714 ; free virtual = 27133
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A6270C
+open_hw_target: Time (s): cpu = 00:03:35 ; elapsed = 00:00:08 . Memory (MB): peak = 10200.461 ; gain = 0.000 ; free physical = 19180 ; free virtual = 27598
+set_property PROGRAM.FILE {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.runs/impl_1/design_5_wrapper.bit} [get_hw_devices xcvu9p_0]
+set_property PROBES.FILE {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.runs/impl_1/design_5_wrapper.ltx} [get_hw_devices xcvu9p_0]
+set_property FULL_PROBES.FILE {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.runs/impl_1/design_5_wrapper.ltx} [get_hw_devices xcvu9p_0]
+current_hw_device [get_hw_devices xcvu9p_0]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]
+INFO: [Labtools 27-2302] Device xcvu9p (JTAG device index = 0) is programmed with a design that has 4 ILA core(s).
+INFO: [Labtools 27-2302] Device xcvu9p (JTAG device index = 0) is programmed with a design that has 1 MIG core(s).
+refresh_hw_device: Time (s): cpu = 00:00:22 ; elapsed = 00:00:08 . Memory (MB): peak = 10200.461 ; gain = 0.000 ; free physical = 19214 ; free virtual = 27636
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_5_i/ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_5_i/ila_1"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_5_i/ila_2"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_5_i/ila_3"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.hw/backup/hw_ila_data_4.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+update_compile_order -fileset sources_1
+set_property PROBES.FILE {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.runs/impl_1/design_5_wrapper.ltx} [get_hw_devices xcvu9p_0]
+set_property FULL_PROBES.FILE {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.runs/impl_1/design_5_wrapper.ltx} [get_hw_devices xcvu9p_0]
+set_property PROGRAM.FILE {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.runs/impl_1/design_5_wrapper.bit} [get_hw_devices xcvu9p_0]
+program_hw_devices [get_hw_devices xcvu9p_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:48 ; elapsed = 00:00:46 . Memory (MB): peak = 10200.461 ; gain = 0.000 ; free physical = 19066 ; free virtual = 27660
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]
+WARNING: [Labtools 27-3089] Calibration is still in-progress.
+INFO: [Labtools 27-2302] Device xcvu9p (JTAG device index = 0) is programmed with a design that has 4 ILA core(s).
+INFO: [Labtools 27-2302] Device xcvu9p (JTAG device index = 0) is programmed with a design that has 1 MIG core(s).
+INFO: [Labtools 27-3143] Calibration status change detected, refreshing MIG_1
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.hw/backup/hw_ila_data_4.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+save_wave_config {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wcfg}
+save_wave_config {/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.hw/hw_1/wave/hw_ila_data_4/hw_ila_data_4.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 11 10:09:20 2022...

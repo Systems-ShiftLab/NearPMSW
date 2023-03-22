@@ -1,0 +1,7 @@
+.*
+!.gitignore
+!.gitattributes
+*.bin
+*.d
+pmemkv_bench
+/build/

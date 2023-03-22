@@ -1,0 +1,47 @@
+$date
+        2021-Apr-09 16:43:30
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " design_1_i/memops_scheduler_1_offset_read_enable $end
+$var reg 12 # design_1_i/memops_scheduler_1_offset_read_addr [11:0] $end
+$var reg 64 / design_1_i/addrmonitor_0_pmem_obj_offset_clk0 [63:0] $end
+$var reg 1 o design_1_i/addrmonitor_0_fifo_write_pulse $end
+$var reg 1 p _TRIGGER $end
+$var reg 1 q _WINDOW $end
+$var reg 1 r _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+b1 #
+b11111111011111010111101100101111110000000000000 /
+0o
+0p
+1q
+0r
+$end
+#238
+1"
+b0 #
+1o
+#239
+0"
+b1 #
+b11111111011111010111101101101111111000000000000 /
+0o
+#240
+1"
+b11111111011111010111101100101111110000000000000 /
+1o
+#241
+0"
+0o
+#256
+1p

@@ -1,0 +1,74 @@
+
+running fillseq 
+opened device without error!!
+vaddr 0x7fd9307c0550 pmemobjid 2
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 09:29:09,stree,1000000,16,206.951000,/mnt/pmem/pmemkv,110.626221,0.288000,100,,186.667404,5357.121582,0.592638
+running fillrandom 
+opened device without error!!
+vaddr 0x7f5a123c0550 pmemobjid 2
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillrandom,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 09:32:16,stree,1000000,16,211.192000,/mnt/pmem/pmemkv,110.626221,0.611000,100,,144.906403,6901.006348,0.763432
+running fillseq 
+opened device without error!!
+vaddr 0x7fb14adc0550 pmemobjid 2
+running overwrite 00 ops                              
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 09:34:41,stree,1000000,16,209.978000,/mnt/pmem/pmemkv,110.626221,0.502000,100,,186.743073,5354.951172,0.592398
+2,overwrite,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 09:37:48,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,,59.844128,16710.078125,1.848573
+running fillseq 
+opened device without error!!
+vaddr 0x7f62dc5c0550 pmemobjid 2
+running readseq 0000 ops                              
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 09:38:48,stree,1000000,16,210.734000,/mnt/pmem/pmemkv,110.626221,0.649000,100,,187.829971,5323.963867,0.588970
+2,readseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 09:41:56,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,(1000000 of 1000000 found by one thread),42.883350,23319.074219,2.579701
+running fillseq 
+opened device without error!!
+vaddr 0x7f7ada7c0550 pmemobjid 2
+running readrandom 0 ops                              
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 09:42:39,stree,1000000,16,207.328000,/mnt/pmem/pmemkv,110.626221,0.652000,100,,186.601608,5359.010742,0.592847
+2,readrandom,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 09:45:46,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,(1000000 of 1000000 found by one thread),42.285183,23648.947266,2.616194
+running fillseq 
+opened device without error!!
+vaddr 0x7f1f3dbc0550 pmemobjid 2
+running readmissing  ops                              
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 09:46:28,stree,1000000,16,210.675000,/mnt/pmem/pmemkv,110.626221,0.570000,100,,187.855225,5323.248535,0.588891
+2,readmissing,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 09:49:36,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,(1 of 1000000 found by one thread),40.988464,24397.109375,0.372273
+running fillseq 
+opened device without error!!
+vaddr 0x7f55ebfc0550 pmemobjid 2
+running deleteseq 00 ops                              
+Segmentation fault0 ops                              
+running fillseq 
+opened device without error!!
+vaddr 0x7f9ad55c0550 pmemobjid 2
+running deleterandom ops                              
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 09:55:32,stree,1000000,16,209.772000,/mnt/pmem/pmemkv,110.626221,0.612000,100,,187.952591,5320.490723,0.588586
+2,deleterandom,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 09:58:40,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,,113.786140,8788.416992,0.000000
+running fillseq 
+opened device without error!!
+vaddr 0x7faaed3c0550 pmemobjid 2
+running readwhilewriting                              
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:00:34,stree,1000000,16,216.684000,/mnt/pmem/pmemkv,110.626221,1.707000,100,,188.561188,5303.318359,0.586686
+2,readwhilewriting,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:03:43,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,,6495.000000,153.964584,0.000000
+running fillseq 
+opened device without error!!
+vaddr 0x7f031dbc0550 pmemobjid 2
+running readrandomwriterandom                         
+id,Benchmark,CPU,CPU model,CPUCache,Date:,Engine,Entries,Keys [bytes each],Open [millis/op],Path,RawSize [MB (estimated)],Remove [millis/op],Values [bytes each],extra_data,micros/op (avarage),ops/sec,throughput [MB/s]
+1,fillseq,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:03:43,stree,1000000,16,209.938000,/mnt/pmem/pmemkv,110.626221,0.586000,100,,186.508301,5361.691895,0.593144
+2,readrandomwriterandom,16,AMD Ryzen 7 3700X 8-Core Processor,512 KB,05/01/21 10:06:50,stree,1000000,16,,/mnt/pmem/pmemkv,110.626221,,100,(reads:900000 writes:100000 total:1000000 found:900000),46.001865,21738.250000,2.404820
+running fillseq 
+opened device without error!!
+vaddr 0x7fbc25bc0550 pmemobjid 2
+running txfillrandom ops                              
+opened device without error!!
+vaddr 0x7fbc25bc0550 pmemobjid 2
+terminate called after throwing an instance of 'pmem::kv::bad_result_access'
+  what():  bad_result_access: value doesn't exist
+Aborted

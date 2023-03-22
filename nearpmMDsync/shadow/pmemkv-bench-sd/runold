@@ -1,0 +1,7 @@
+sudo mount -o dax /dev/pmem0 /mnt/pmem
+sudo chown oem /mnt/pmem
+./pmemkv_bench --db=/mnt/pmem/pmemkv --db_size_in_gb=1
+sudo ./pmemkv_bench --db=/mnt/pmem/pmemkv --db_size_in_gb=1 --num=10000  --engine=cmap --benchmarks=fillseq,fillrandom,overwrite > out
+grep "timecp" out > time
+awk '{sum+= $3;} END{print sum;}' time
+

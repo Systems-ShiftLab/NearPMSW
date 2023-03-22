@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "typeinfo": "c",
+        "fcntl.h": "c",
+        "unistd.h": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "utility": "c"
+    }
+}

@@ -1,0 +1,23 @@
+$date
+        2022-May-23 12:34:53
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " design_5_i/multi_thread_command_0_oid_valid $end
+$var reg 20 # design_5_i/multi_thread_command_0_oid_offset_lookup [19:0] $end
+$var reg 1 7 design_5_i/addrmonitor_0_pmem_obj_offset_valid $end
+$var reg 4 8 design_5_i/multi_thread_command_0_test_scheduler_state [3:0] $end
+$var reg 1 < design_5_i/multi_thread_command_0_test_buffer0_select_valid $end
+$var reg 1 = design_5_i/multi_thread_command_0_test_buffer1_select_valid $end
+$var reg 32 > design_5_i/multi_thread_command_0_test_fifo_buffer_full [31:0] $end
+$var reg 32 ^ design_5_i/multi_thread_command_0_test_counter [31:0] $end
+$var reg 1 ~ _TRIGGER $end
+$var reg 1 !" _WINDOW $end
+$var reg 1 "" _GAP $end
+$upscope $end
+$enddefinitions $end

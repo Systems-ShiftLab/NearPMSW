@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Nov 21 21:59:58 2021
+# Process ID: 4262
+# Current directory: /home/oem/Research/Research/pmdkOrig1/src/examples/libpmemobj/map
+# Command line: vivado
+# Log file: /home/oem/Research/Research/pmdkOrig1/src/examples/libpmemobj/map/vivado.log
+# Journal file: /home/oem/Research/Research/pmdkOrig1/src/examples/libpmemobj/map/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /media/oem/AA50F1DA50F1AD67/NDP_project/Undolog2/PCIeMEM/PCIeMEM.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/media/oem/AA50F1DA50F1AD67/NDP_project/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xcvu9p_0]
+set_property PROBES.FILE {/media/oem/AA50F1DA50F1AD67/NDP_project/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xcvu9p_0]
+set_property FULL_PROBES.FILE {/media/oem/AA50F1DA50F1AD67/NDP_project/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xcvu9p_0]
+current_hw_device [get_hw_devices xcvu9p_0]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_1"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_3"}]]
+update_compile_order -fileset sources_1
+set_property TRIGGER_COMPARE_VALUE eq8'hXX [get_hw_probes design_1_i/memops_scheduler_1_ndp_start -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"design_1_i/ila_2"}]]
+set_property PROBES.FILE {/media/oem/AA50F1DA50F1AD67/NDP_project/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xcvu9p_0]
+set_property FULL_PROBES.FILE {/media/oem/AA50F1DA50F1AD67/NDP_project/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xcvu9p_0]
+set_property PROGRAM.FILE {/media/oem/AA50F1DA50F1AD67/NDP_project/Undolog2/PCIeMEM/PCIeMEM.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xcvu9p_0]
+program_hw_devices [get_hw_devices xcvu9p_0]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]

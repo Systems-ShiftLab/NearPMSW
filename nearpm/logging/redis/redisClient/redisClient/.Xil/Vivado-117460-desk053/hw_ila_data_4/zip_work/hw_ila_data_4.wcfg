@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.hw/hw_1/wave/hw_ila_data_4/hw_ila_data_4.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6641fs"></ZoomEndTime>
+      <Cursor1Time time="278000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="336"></NameColumnWidth>
+      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="logic" fp_name="design_5_i/addrmonitor_0_pmem_obj_offset_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_5_i/addrmonitor_0_pmem_obj_offset_valid</obj_property>
+      <obj_property name="ObjectShortName">addrmonitor_0_pmem_obj_offset_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_5_i/multi_thread_command_0_oid_offset_lookup">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_5_i/multi_thread_command_0_oid_offset_lookup[19:0]</obj_property>
+      <obj_property name="ObjectShortName">multi_thread_command_0_oid_offset_lookup[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_5_i/multi_thread_command_0_oid_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_5_i/multi_thread_command_0_oid_valid</obj_property>
+      <obj_property name="ObjectShortName">multi_thread_command_0_oid_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_5_i/multi_thread_command_0_test_buffer0_select_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_5_i/multi_thread_command_0_test_buffer0_select_valid</obj_property>
+      <obj_property name="ObjectShortName">multi_thread_command_0_test_buffer0_select_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_5_i/multi_thread_command_0_test_buffer1_select_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_5_i/multi_thread_command_0_test_buffer1_select_valid</obj_property>
+      <obj_property name="ObjectShortName">multi_thread_command_0_test_buffer1_select_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_5_i/multi_thread_command_0_test_counter">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_5_i/multi_thread_command_0_test_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">multi_thread_command_0_test_counter[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_5_i/multi_thread_command_0_test_fifo_buffer_full">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_5_i/multi_thread_command_0_test_fifo_buffer_full[31:0]</obj_property>
+      <obj_property name="ObjectShortName">multi_thread_command_0_test_fifo_buffer_full[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_5_i/multi_thread_command_0_test_scheduler_state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_5_i/multi_thread_command_0_test_scheduler_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">multi_thread_command_0_test_scheduler_state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

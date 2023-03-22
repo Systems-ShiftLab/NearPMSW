@@ -1,0 +1,5 @@
+rm -rf /dev/shm/pmemkv /tmp/pmemkv
+g++ ./bench/db_bench.cc ./bench/port/port_posix.cc ./bench/util/env.cc ./bench/util/env_posix.cc ./bench/util/histogram.cc ./bench/util/logging.cc ./bench/util/status.cc ./bench/util/testutil.cc -o pmemkv_bench -I./bench/include -I./bench -I./bench/util -I/usr/local/include -DOS_LINUX -fno-builtin-memcmp -march=native -DNDEBUG -O2 -std=c++11 -ldl -lpthread -lpmem -L/usr/local/lib -lpmemkv -lpmempool
+
+pmemkvcp 5e-06
+pmemkvtottime 1.18199

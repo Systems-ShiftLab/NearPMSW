@@ -1,0 +1,2 @@
+rm -rf /mnt/mem/*
+./tpcc_nvm

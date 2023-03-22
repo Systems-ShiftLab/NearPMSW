@@ -1,0 +1,34 @@
+$date
+        2022-May-23 12:34:53
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " design_5_i/smartconnect_1_M01_AXI_WREADY $end
+$var reg 4 # design_5_i/smartconnect_1_M01_AXI_AWADDR [3:0] $end
+$var reg 2 ' design_5_i/smartconnect_1_M01_AXI_BRESP [1:0] $end
+$var reg 1 ) design_5_i/smartconnect_1_M01_AXI_BVALID $end
+$var reg 1 * design_5_i/smartconnect_1_M01_AXI_BREADY $end
+$var reg 4 + design_5_i/smartconnect_1_M01_AXI_ARADDR [3:0] $end
+$var reg 1 / design_5_i/smartconnect_1_M01_AXI_RREADY $end
+$var reg 1 0 design_5_i/smartconnect_1_M01_AXI_WVALID $end
+$var reg 1 1 design_5_i/smartconnect_1_M01_AXI_ARVALID $end
+$var reg 1 2 design_5_i/smartconnect_1_M01_AXI_ARREADY $end
+$var reg 32 3 design_5_i/smartconnect_1_M01_AXI_RDATA [31:0] $end
+$var reg 1 S design_5_i/smartconnect_1_M01_AXI_AWVALID $end
+$var reg 1 T design_5_i/smartconnect_1_M01_AXI_AWREADY $end
+$var reg 2 U design_5_i/smartconnect_1_M01_AXI_RRESP [1:0] $end
+$var reg 32 W design_5_i/smartconnect_1_M01_AXI_WDATA [31:0] $end
+$var reg 4 w design_5_i/smartconnect_1_M01_AXI_WSTRB [3:0] $end
+$var reg 1 { design_5_i/smartconnect_1_M01_AXI_RVALID $end
+$var reg 3 | design_5_i/smartconnect_1_M01_AXI_ARPROT [2:0] $end
+$var reg 3 !" design_5_i/smartconnect_1_M01_AXI_AWPROT [2:0] $end
+$var reg 1 $" _TRIGGER $end
+$var reg 1 %" _WINDOW $end
+$var reg 1 &" _GAP $end
+$upscope $end
+$enddefinitions $end

@@ -1,0 +1,21 @@
+$date
+        2021-Mar-28 23:48:15
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 3 " design_1_i/addrmonitor_0_state [2:0] $end
+$var reg 32 % design_1_i/addrmonitor_0_physicaladdr [31:0] $end
+$var reg 64 E design_1_i/addrmonitor_0_virtualaddr [63:0] $end
+$var reg 64 '" design_1_i/addrmonitor_0_offset [63:0] $end
+$var reg 6 g" design_1_i/addrmonitor_0_count [5:0] $end
+$var reg 64 m" design_1_i/addrmonitor_0_virtualaddr_out1 [63:0] $end
+$var reg 1 O# _TRIGGER $end
+$var reg 1 P# _WINDOW $end
+$var reg 1 Q# _GAP $end
+$upscope $end
+$enddefinitions $end

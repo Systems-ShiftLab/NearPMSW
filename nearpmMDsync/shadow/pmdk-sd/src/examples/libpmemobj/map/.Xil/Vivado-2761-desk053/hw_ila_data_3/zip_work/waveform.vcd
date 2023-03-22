@@ -1,0 +1,56 @@
+$date
+        2021-Mar-31 10:04:45
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 64 " design_1_i/memops_scheduler_1_ulog_offset_reg [63:0] $end
+$var reg 64 b design_1_i/memops_scheduler_1_log_src_reg [63:0] $end
+$var reg 4 D" design_1_i/memops_scheduler_1_mst_exec_state [3:0] $end
+$var reg 8 H" design_1_i/memops_scheduler_1_ndp_start [7:0] $end
+$var reg 1 P" _TRIGGER $end
+$var reg 1 Q" _WINDOW $end
+$var reg 1 R" _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+b0 b
+b0 D"
+b0 H"
+0P"
+1Q"
+0R"
+$end
+#512
+b1 H"
+1P"
+#513
+b11111110000101100011100000000000000000000000000 "
+b11111110000101100011100001000000000000000000000 b
+b0 H"
+#514
+b11 D"
+#521
+b100 D"
+#528
+b1 D"
+#535
+b10 D"
+#542
+b110 D"
+#549
+b111 D"
+#556
+b1000 D"
+#563
+b1001 D"
+#570
+b1010 D"
+#577
+b1011 D"

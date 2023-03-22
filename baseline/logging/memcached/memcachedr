@@ -1,0 +1,13 @@
+make  all-recursive
+make[1]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+Making all in doc
+make[2]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/doc'
+make  all-am
+make[3]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/doc'
+make[2]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/doc'
+make[2]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+make[2]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+make[1]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+memcachedlog 0.129731

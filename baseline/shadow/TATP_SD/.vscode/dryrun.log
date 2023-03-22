@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/shadow/TATP_CP'
+g++ tatp_db.cc tatp_nvm.cc ../include/txopt.cc -lpmem -lpthread  -o tatp_nvm -std=c++11 
+make: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/shadow/TATP_CP'
+ 

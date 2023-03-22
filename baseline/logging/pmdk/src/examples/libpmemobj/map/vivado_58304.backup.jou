@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov 22 01:13:57 2021
+# Process ID: 58304
+# Current directory: /home/oem/Research/Research/pmdkOrig1/src/examples/libpmemobj/map
+# Command line: vivado
+# Log file: /home/oem/Research/Research/pmdkOrig1/src/examples/libpmemobj/map/vivado.log
+# Journal file: /home/oem/Research/Research/pmdkOrig1/src/examples/libpmemobj/map/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /media/oem/AA50F1DA50F1AD67/NDP_project/Undolog2/PCIeMEM/PCIeMEM.xpr
+update_compile_order -fileset sources_1
+open_bd_design {/media/oem/AA50F1DA50F1AD67/NDP_project/Undolog2/PCIeMEM/PCIeMEM.srcs/sources_1/bd/design_1/design_1.bd}
+ipx::edit_ip_in_project -upgrade true -name undolog_v2_1_project -directory /media/oem/AA50F1DA50F1AD67/NDP_project/Undolog2/PCIeMEM/PCIeMEM.tmp/undolog_v2_1_project /media/oem/AA50F1DA50F1AD67/NDP_project/Undolog2/ip_repo/undolog_2.1/component.xml
+update_compile_order -fileset sources_1
+close_project

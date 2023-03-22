@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jun  2 12:00:00 2022
+# Process ID: 3775340
+# Current directory: /mnt/AA50F1DA50F1AD67/ASPLOS22/nearpm/logging/pmdk/src/examples/libpmemobj/map
+# Command line: vivado
+# Log file: /mnt/AA50F1DA50F1AD67/ASPLOS22/nearpm/logging/pmdk/src/examples/libpmemobj/map/vivado.log
+# Journal file: /mnt/AA50F1DA50F1AD67/ASPLOS22/nearpm/logging/pmdk/src/examples/libpmemobj/map/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /mnt/AA50F1DA50F1AD67/Pmem-spec/NearPM/ip_repo/multi_thread/project_1/project_1.xpr
+update_compile_order -fileset sources_1

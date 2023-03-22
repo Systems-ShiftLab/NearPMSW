@@ -1,0 +1,3518 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing aclocal-1.16 
+ 
+ cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing automake-1.16 --foreign
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoconf
+/bin/bash ./config.status --recheck
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --enable-pslab --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-pc-linux-gnu
+ 
+checking host system type...  
+x86_64-pc-linux-gnu
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking whether gcc understands -c and -o together...  
+yes
+ 
+checking whether make supports the include directive...  
+yes (GNU style)
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for icc in use...  
+no
+ 
+checking for clang in use...  
+no
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking whether __SUNPRO_C is declared...  
+no
+checking for gcc option to accept ISO C99...  
+none needed
+checking sasl/sasl.h usability...  
+no
+ 
+checking sasl/sasl.h presence...  
+no
+ 
+checking for sasl/sasl.h...  
+no
+ 
+checking for gcov...  
+/usr/bin/gcov
+ 
+checking for main in -lgcov...  
+yes
+checking for library containing clock_gettime...  
+none required
+ 
+checking for library containing socket...  
+none required
+ 
+checking for library containing gethostbyname...  
+none required
+ 
+checking for libevent directory...  
+(system)
+ 
+checking for library containing umem_cache_create...  
+no
+ 
+checking for library containing gethugepagesizes...  
+no
+ 
+checking for stdbool.h that conforms to C99...  
+yes
+ 
+checking for _Bool...  
+yes
+ 
+checking for inttypes.h...  
+(cached)  
+yes
+ 
+checking for sasl_callback_ft...  
+no
+ 
+checking for print macros for integers (C99 section 7.8.1)...  
+yes
+ 
+checking for an ANSI C-conforming const...  
+yes
+ 
+checking for socklen_t...  
+yes
+ 
+checking for endianness...  
+little
+ 
+checking for htonll...  
+no
+ 
+checking for library containing pthread_create...  
+none required
+checking for mlockall...  
+yes
+ 
+checking for getpagesizes...  
+no
+ 
+checking for memcntl...  
+no
+ 
+checking for sigignore...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for accept4...  
+yes
+ 
+checking for getopt_long...  
+yes
+ 
+checking for alignment...  
+none
+ 
+checking for GCC atomics...  
+yes
+ 
+checking for GCC 64bit atomics...  
+no
+ 
+checking for setppriv...  
+no
+ 
+checking for pledge...  
+no
+ 
+checking umem.h usability...  
+no
+ 
+checking umem.h presence...  
+no
+ 
+checking for umem.h...  
+no
+ 
+checking for xml2rfc...  
+no
+ 
+checking for xsltproc...  
+/usr/bin/xsltproc
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/bash ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating doc/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing depfiles commands
+ 
+(CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoheader)
+rm -f stamp-h1
+touch config.h.in
+rm -f stamp-h1
+cd . && /bin/bash ./config.status config.h
+ 
+test -f config.h || rm -f stamp-h1
+test -f config.h || make  stamp-h1
+ 
+make  all-recursive
+ 
+make[1]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing aclocal-1.16 
+ 
+ cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing automake-1.16 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoconf
+ 
+/bin/bash ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --enable-pslab --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-pc-linux-gnu
+ 
+checking host system type...  
+x86_64-pc-linux-gnu
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking whether gcc understands -c and -o together...  
+yes
+ 
+checking whether make supports the include directive...  
+yes (GNU style)
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for icc in use...  
+no
+ 
+checking for clang in use...  
+no
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking whether __SUNPRO_C is declared...  
+no
+ 
+checking for gcc option to accept ISO C99...  
+none needed
+ 
+checking sasl/sasl.h usability...  
+no
+ 
+checking sasl/sasl.h presence...  
+no
+ 
+checking for sasl/sasl.h...  
+no
+ 
+checking for gcov...  
+/usr/bin/gcov
+ 
+checking for main in -lgcov...  
+yes
+ 
+checking for library containing clock_gettime...  
+none required
+ 
+checking for library containing socket...  
+none required
+ 
+checking for library containing gethostbyname...  
+none required
+ 
+checking for libevent directory...  
+(system)
+ 
+checking for library containing umem_cache_create...  
+no
+ 
+checking for library containing gethugepagesizes...  
+no
+ 
+checking for stdbool.h that conforms to C99...  
+yes
+ 
+checking for _Bool...  
+yes
+ 
+checking for inttypes.h...  
+(cached)  
+yes
+ 
+checking for sasl_callback_ft...  
+no
+ 
+checking for print macros for integers (C99 section 7.8.1)...  
+yes
+ 
+checking for an ANSI C-conforming const...  
+yes
+ 
+checking for socklen_t...  
+yes
+ 
+checking for endianness...  
+little
+ 
+checking for htonll...  
+no
+ 
+checking for library containing pthread_create...  
+none required
+ 
+checking for mlockall...  
+yes
+ 
+checking for getpagesizes...  
+no
+ 
+checking for memcntl...  
+no
+ 
+checking for sigignore...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for accept4...  
+yes
+ 
+checking for getopt_long...  
+yes
+ 
+checking for alignment...  
+none
+ 
+checking for GCC atomics...  
+yes
+ 
+checking for GCC 64bit atomics...  
+no
+ 
+checking for setppriv...  
+no
+ 
+checking for pledge...  
+no
+ 
+checking umem.h usability...  
+no
+ 
+checking umem.h presence...  
+no
+ 
+checking for umem.h...  
+no
+ 
+checking for xml2rfc...  
+no
+ 
+checking for xsltproc...  
+/usr/bin/xsltproc
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/bash ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating doc/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing depfiles commands
+ 
+fail=; \
+if (target_option=k; case ${target_option-} in ?) ;; *) echo "am__make_running_with_option: internal error: invalid" "target option '${target_option-}' specified" >&2; exit 1;; esac; has_opt=no; sane_makeflags=$MAKEFLAGS; if { if test -z '1'; then false; elif test -n 'x86_64-pc-linux-gnu'; then true; elif test -n '4.2.1' && test -n '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'; then true; else false; fi; }; then sane_makeflags=$MFLAGS; else case $MAKEFLAGS in *\\[\ \	]*) bs=\\; sane_makeflags=`printf '%s\n' "$MAKEFLAGS" | sed "s/$bs$bs[$bs $bs	]*//g"`;; esac; fi; skip_next=no; strip_trailopt () { flg=`printf '%s\n' "$flg" | sed "s/$1.*$//"`; }; for flg in $sane_makeflags; do test $skip_next = yes && { skip_next=no; continue; }; case $flg in *=*|--*) continue;; -*I) strip_trailopt 'I'; skip_next=yes;; -*I?*) strip_trailopt 'I';; -*O) strip_trailopt 'O'; skip_next=yes;; -*O?*) strip_trailopt 'O';; -*l) strip_trailopt 'l'; skip_next=yes;; -*l?*) strip_trailopt 'l';; -[dEDm]) skip_next=yes;; -[JT]) skip_next=yes;; esac; case $flg in *$target_option*) has_opt=yes; break;; esac; done; test $has_opt = yes); then \
+  failcom='fail=yes'; \
+else \
+  failcom='exit 1'; \
+fi; \
+dot_seen=no; \
+target=`echo all-recursive | sed s/-recursive//`; \
+case "all-recursive" in \
+  distclean-* | maintainer-clean-*) list='doc' ;; \
+  *) list='doc' ;; \
+esac; \
+for subdir in $list; do \
+  echo "Making $target in $subdir"; \
+  if test "$subdir" = "."; then \
+    dot_seen=yes; \
+    local_target="$target-am"; \
+  else \
+    local_target="$target"; \
+  fi; \
+  (CDPATH="${ZSH_VERSION+.}:" && cd $subdir && make  $local_target) \
+  || eval $failcom; \
+done; \
+if test "$dot_seen" = "no"; then \
+  make  "$target-am" || exit 1; \
+fi; test -z "$fail"
+ 
+Making all in doc
+ 
+make[2]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/doc'
+cd .. && make  am--refresh
+ 
+make[3]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing aclocal-1.16 
+ 
+ cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing automake-1.16 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoconf
+ 
+/bin/bash ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --enable-pslab --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-pc-linux-gnu
+ 
+checking host system type...  
+x86_64-pc-linux-gnu
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking whether gcc understands -c and -o together...  
+yes
+ 
+checking whether make supports the include directive...  
+yes (GNU style)
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for icc in use...  
+no
+ 
+checking for clang in use...  
+no
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking whether __SUNPRO_C is declared...  
+no
+ 
+checking for gcc option to accept ISO C99...  
+none needed
+ 
+checking sasl/sasl.h usability...  
+no
+ 
+checking sasl/sasl.h presence...  
+no
+ 
+checking for sasl/sasl.h...  
+no
+ 
+checking for gcov...  
+/usr/bin/gcov
+ 
+checking for main in -lgcov...  
+yes
+ 
+checking for library containing clock_gettime...  
+none required
+ 
+checking for library containing socket...  
+none required
+ 
+checking for library containing gethostbyname...  
+none required
+ 
+checking for libevent directory...  
+(system)
+ 
+checking for library containing umem_cache_create...  
+no
+ 
+checking for library containing gethugepagesizes...  
+no
+ 
+checking for stdbool.h that conforms to C99...  
+yes
+ 
+checking for _Bool...  
+yes
+ 
+checking for inttypes.h...  
+(cached)  
+yes
+ 
+checking for sasl_callback_ft...  
+no
+ 
+checking for print macros for integers (C99 section 7.8.1)...  
+yes
+ 
+checking for an ANSI C-conforming const...  
+yes
+ 
+checking for socklen_t...  
+yes
+ 
+checking for endianness...  
+little
+ 
+checking for htonll...  
+no
+ 
+checking for library containing pthread_create...  
+none required
+ 
+checking for mlockall...  
+yes
+ 
+checking for getpagesizes...  
+no
+ 
+checking for memcntl...  
+no
+ 
+checking for sigignore...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for accept4...  
+yes
+ 
+checking for getopt_long...  
+yes
+ 
+checking for alignment...  
+none
+ 
+checking for GCC atomics...  
+yes
+ 
+checking for GCC 64bit atomics...  
+no
+ 
+checking for setppriv...  
+no
+ 
+checking for pledge...  
+no
+ 
+checking umem.h usability...  
+no
+ 
+checking umem.h presence...  
+no
+ 
+checking for umem.h...  
+no
+ 
+checking for xml2rfc...  
+no
+ 
+checking for xsltproc...  
+/usr/bin/xsltproc
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/bash ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating doc/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing depfiles commands
+ 
+make[3]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+make[3]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing aclocal-1.16 
+ 
+ cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing automake-1.16 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoconf
+ 
+/bin/bash ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --enable-pslab --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-pc-linux-gnu
+ 
+checking host system type...  
+x86_64-pc-linux-gnu
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking whether gcc understands -c and -o together...  
+yes
+ 
+checking whether make supports the include directive...  
+yes (GNU style)
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for icc in use...  
+no
+ 
+checking for clang in use...  
+no
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking whether __SUNPRO_C is declared...  
+no
+ 
+checking for gcc option to accept ISO C99...  
+none needed
+ 
+checking sasl/sasl.h usability...  
+no
+ 
+checking sasl/sasl.h presence...  
+no
+ 
+checking for sasl/sasl.h...  
+no
+ 
+checking for gcov...  
+/usr/bin/gcov
+ 
+checking for main in -lgcov...  
+yes
+ 
+checking for library containing clock_gettime...  
+none required
+ 
+checking for library containing socket...  
+none required
+ 
+checking for library containing gethostbyname...  
+none required
+ 
+checking for libevent directory...  
+(system)
+checking for library containing umem_cache_create...  
+no
+ 
+checking for library containing gethugepagesizes...  
+no
+ 
+checking for stdbool.h that conforms to C99...  
+yes
+ 
+checking for _Bool...  
+yes
+ 
+checking for inttypes.h...  
+(cached)  
+yes
+ 
+checking for sasl_callback_ft...  
+no
+ 
+checking for print macros for integers (C99 section 7.8.1)...  
+yes
+ 
+checking for an ANSI C-conforming const...  
+yes
+ 
+checking for socklen_t...  
+yes
+ 
+checking for endianness...  
+little
+ 
+checking for htonll...  
+no
+ 
+checking for library containing pthread_create...  
+none required
+ 
+checking for mlockall...  
+yes
+ 
+checking for getpagesizes...  
+no
+checking for memcntl...  
+no
+ 
+checking for sigignore...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for accept4...  
+yes
+ 
+checking for getopt_long...  
+yes
+ 
+checking for alignment...  
+none
+ 
+checking for GCC atomics...  
+yes
+ 
+checking for GCC 64bit atomics...  
+no
+ 
+checking for setppriv...  
+no
+ 
+checking for pledge...  
+no
+ 
+checking umem.h usability...  
+no
+ 
+checking umem.h presence...  
+no
+ 
+checking for umem.h...  
+no
+ 
+checking for xml2rfc...  
+no
+ 
+checking for xsltproc...  
+/usr/bin/xsltproc
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/bash ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating doc/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing depfiles commands
+ 
+make[3]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+cd .. && make  am--refresh
+ 
+make[3]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing aclocal-1.16 
+ 
+ cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing automake-1.16 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoconf
+ 
+/bin/bash ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --enable-pslab --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-pc-linux-gnu
+ 
+checking host system type...  
+x86_64-pc-linux-gnu
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking whether gcc understands -c and -o together...  
+yes
+ 
+checking whether make supports the include directive...  
+yes (GNU style)
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for icc in use...  
+no
+ 
+checking for clang in use...  
+no
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking whether __SUNPRO_C is declared...  
+no
+ 
+checking for gcc option to accept ISO C99...  
+none needed
+ 
+checking sasl/sasl.h usability...  
+no
+ 
+checking sasl/sasl.h presence...  
+no
+ 
+checking for sasl/sasl.h...  
+no
+ 
+checking for gcov...  
+/usr/bin/gcov
+ 
+checking for main in -lgcov...  
+yes
+ 
+checking for library containing clock_gettime...  
+none required
+ 
+checking for library containing socket...  
+none required
+ 
+checking for library containing gethostbyname...  
+none required
+ 
+checking for libevent directory...  
+(system)
+ 
+checking for library containing umem_cache_create...  
+no
+ 
+checking for library containing gethugepagesizes...  
+no
+ 
+checking for stdbool.h that conforms to C99...  
+yes
+ 
+checking for _Bool...  
+yes
+ 
+checking for inttypes.h...  
+(cached)  
+yes
+ 
+checking for sasl_callback_ft...  
+no
+ 
+checking for print macros for integers (C99 section 7.8.1)...  
+yes
+ 
+checking for an ANSI C-conforming const...  
+yes
+ 
+checking for socklen_t...  
+yes
+ 
+checking for endianness...  
+little
+ 
+checking for htonll...  
+no
+ 
+checking for library containing pthread_create...  
+none required
+ 
+checking for mlockall...  
+yes
+ 
+checking for getpagesizes...  
+no
+ 
+checking for memcntl...  
+no
+ 
+checking for sigignore...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for accept4...  
+yes
+ 
+checking for getopt_long...  
+yes
+ 
+checking for alignment...  
+none
+ 
+checking for GCC atomics...  
+yes
+ 
+checking for GCC 64bit atomics...  
+no
+ 
+checking for setppriv...  
+no
+ 
+checking for pledge...  
+no
+ 
+checking umem.h usability...  
+no
+ 
+checking umem.h presence...  
+no
+ 
+checking for umem.h...  
+no
+ 
+checking for xml2rfc...  
+no
+ 
+checking for xsltproc...  
+/usr/bin/xsltproc
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/bash ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating doc/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing depfiles commands
+ 
+make[3]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+cd .. && make  am--refresh
+ 
+make[3]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing aclocal-1.16 
+ 
+ cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing automake-1.16 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoconf
+ 
+/bin/bash ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --enable-pslab --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-pc-linux-gnu
+ 
+checking host system type...  
+x86_64-pc-linux-gnu
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking whether gcc understands -c and -o together...  
+yes
+ 
+checking whether make supports the include directive...  
+yes (GNU style)
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for icc in use...  
+no
+ 
+checking for clang in use...  
+no
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking whether __SUNPRO_C is declared...  
+no
+ 
+checking for gcc option to accept ISO C99...  
+none needed
+ 
+checking sasl/sasl.h usability...  
+no
+ 
+checking sasl/sasl.h presence...  
+no
+ 
+checking for sasl/sasl.h...  
+no
+ 
+checking for gcov...  
+/usr/bin/gcov
+ 
+checking for main in -lgcov...  
+yes
+ 
+checking for library containing clock_gettime...  
+none required
+ 
+checking for library containing socket...  
+none required
+ 
+checking for library containing gethostbyname...  
+none required
+ 
+checking for libevent directory...  
+(system)
+ 
+checking for library containing umem_cache_create...  
+no
+ 
+checking for library containing gethugepagesizes...  
+no
+ 
+checking for stdbool.h that conforms to C99...  
+yes
+ 
+checking for _Bool...  
+yes
+ 
+checking for inttypes.h...  
+(cached)  
+yes
+ 
+checking for sasl_callback_ft...  
+no
+ 
+checking for print macros for integers (C99 section 7.8.1)...  
+yes
+ 
+checking for an ANSI C-conforming const...  
+yes
+ 
+checking for socklen_t...  
+yes
+ 
+checking for endianness...  
+little
+ 
+checking for htonll...  
+no
+ 
+checking for library containing pthread_create...  
+none required
+ 
+checking for mlockall...  
+yes
+ 
+checking for getpagesizes...  
+no
+ 
+checking for memcntl...  
+no
+ 
+checking for sigignore...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for accept4...  
+yes
+ 
+checking for getopt_long...  
+yes
+ 
+checking for alignment...  
+none
+ 
+checking for GCC atomics...  
+yes
+ 
+checking for GCC 64bit atomics...  
+no
+ 
+checking for setppriv...  
+no
+ 
+checking for pledge...  
+no
+ 
+checking umem.h usability...  
+no
+ 
+checking umem.h presence...  
+no
+ 
+checking for umem.h...  
+no
+ 
+checking for xml2rfc...  
+no
+ 
+checking for xsltproc...  
+/usr/bin/xsltproc
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/bash ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating doc/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing depfiles commands
+ 
+make[3]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+make[3]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing aclocal-1.16 
+ 
+ cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing automake-1.16 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoconf
+ 
+/bin/bash ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --enable-pslab --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-pc-linux-gnu
+ 
+checking host system type...  
+x86_64-pc-linux-gnu
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking whether gcc understands -c and -o together...  
+yes
+ 
+checking whether make supports the include directive...  
+yes (GNU style)
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for icc in use...  
+no
+ 
+checking for clang in use...  
+no
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking whether __SUNPRO_C is declared...  
+no
+ 
+checking for gcc option to accept ISO C99...  
+none needed
+ 
+checking sasl/sasl.h usability...  
+no
+ 
+checking sasl/sasl.h presence...  
+no
+ 
+checking for sasl/sasl.h...  
+no
+ 
+checking for gcov...  
+/usr/bin/gcov
+ 
+checking for main in -lgcov...  
+yes
+ 
+checking for library containing clock_gettime...  
+none required
+ 
+checking for library containing socket...  
+none required
+ 
+checking for library containing gethostbyname...  
+none required
+ 
+checking for libevent directory...  
+(system)
+ 
+checking for library containing umem_cache_create...  
+no
+ 
+checking for library containing gethugepagesizes...  
+no
+ 
+checking for stdbool.h that conforms to C99...  
+yes
+ 
+checking for _Bool...  
+yes
+ 
+checking for inttypes.h...  
+(cached)  
+yes
+ 
+checking for sasl_callback_ft...  
+no
+ 
+checking for print macros for integers (C99 section 7.8.1)...  
+yes
+ 
+checking for an ANSI C-conforming const...  
+yes
+ 
+checking for socklen_t...  
+yes
+ 
+checking for endianness...  
+little
+ 
+checking for htonll...  
+no
+ 
+checking for library containing pthread_create...  
+none required
+ 
+checking for mlockall...  
+yes
+ 
+checking for getpagesizes...  
+no
+ 
+checking for memcntl...  
+no
+ 
+checking for sigignore...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for accept4...  
+yes
+ 
+checking for getopt_long...  
+yes
+ 
+checking for alignment...  
+none
+ 
+checking for GCC atomics...  
+yes
+ 
+checking for GCC 64bit atomics...  
+no
+ 
+checking for setppriv...  
+no
+ 
+checking for pledge...  
+no
+ 
+checking umem.h usability...  
+no
+ 
+checking umem.h presence...  
+no
+ 
+checking for umem.h...  
+no
+ 
+checking for xml2rfc...  
+no
+ 
+checking for xsltproc...  
+/usr/bin/xsltproc
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/bash ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating doc/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing depfiles commands
+ 
+make[3]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+make  all-am
+ 
+make[3]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/doc'
+cd .. && make  am--refresh
+ 
+make[4]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing aclocal-1.16 
+ 
+ cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing automake-1.16 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoconf
+ 
+/bin/bash ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --enable-pslab --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-pc-linux-gnu
+ 
+checking host system type...  
+x86_64-pc-linux-gnu
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking whether gcc understands -c and -o together...  
+yes
+ 
+checking whether make supports the include directive...  
+yes (GNU style)
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for icc in use...  
+no
+ 
+checking for clang in use...  
+no
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking whether __SUNPRO_C is declared...  
+no
+ 
+checking for gcc option to accept ISO C99...  
+none needed
+ 
+checking sasl/sasl.h usability...  
+no
+ 
+checking sasl/sasl.h presence...  
+no
+ 
+checking for sasl/sasl.h...  
+no
+ 
+checking for gcov...  
+/usr/bin/gcov
+ 
+checking for main in -lgcov...  
+yes
+ 
+checking for library containing clock_gettime...  
+none required
+ 
+checking for library containing socket...  
+none required
+ 
+checking for library containing gethostbyname...  
+none required
+ 
+checking for libevent directory...  
+(system)
+ 
+checking for library containing umem_cache_create...  
+no
+ 
+checking for library containing gethugepagesizes...  
+no
+ 
+checking for stdbool.h that conforms to C99...  
+yes
+ 
+checking for _Bool...  
+yes
+ 
+checking for inttypes.h...  
+(cached) yes
+ 
+checking for sasl_callback_ft...  
+no
+ 
+checking for print macros for integers (C99 section 7.8.1)...  
+yes
+ 
+checking for an ANSI C-conforming const...  
+yes
+ 
+checking for socklen_t...  
+yes
+ 
+checking for endianness...  
+little
+ 
+checking for htonll...  
+no
+ 
+checking for library containing pthread_create...  
+none required
+ 
+checking for mlockall...  
+yes
+ 
+checking for getpagesizes...  
+no
+ 
+checking for memcntl...  
+no
+ 
+checking for sigignore...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for accept4...  
+yes
+ 
+checking for getopt_long...  
+yes
+ 
+checking for alignment...  
+none
+ 
+checking for GCC atomics...  
+yes
+ 
+checking for GCC 64bit atomics...  
+no
+ 
+checking for setppriv...  
+no
+ 
+checking for pledge...  
+no
+ 
+checking umem.h usability...  
+no
+ 
+checking umem.h presence...  
+no
+ 
+checking for umem.h...  
+no
+ 
+checking for xml2rfc...  
+no
+ 
+checking for xsltproc...  
+/usr/bin/xsltproc
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/bash ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating doc/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing depfiles commands
+ 
+make[4]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+make[4]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing aclocal-1.16 
+ 
+ cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing automake-1.16 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoconf
+ 
+/bin/bash ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --enable-pslab --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-pc-linux-gnu
+ 
+checking host system type...  
+x86_64-pc-linux-gnu
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking whether gcc understands -c and -o together...  
+yes
+ 
+checking whether make supports the include directive...  
+yes (GNU style)
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for icc in use...  
+no
+ 
+checking for clang in use...  
+no
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking whether __SUNPRO_C is declared...  
+no
+ 
+checking for gcc option to accept ISO C99...  
+none needed
+ 
+checking sasl/sasl.h usability...  
+no
+ 
+checking sasl/sasl.h presence...  
+no
+ 
+checking for sasl/sasl.h...  
+no
+ 
+checking for gcov...  
+/usr/bin/gcov
+ 
+checking for main in -lgcov...  
+yes
+ 
+checking for library containing clock_gettime...  
+none required
+ 
+checking for library containing socket...  
+none required
+ 
+checking for library containing gethostbyname...  
+none required
+ 
+checking for libevent directory...  
+(system)
+ 
+checking for library containing umem_cache_create...  
+no
+ 
+checking for library containing gethugepagesizes...  
+no
+ 
+checking for stdbool.h that conforms to C99...  
+yes
+ 
+checking for _Bool...  
+yes
+ 
+checking for inttypes.h...  
+(cached)  
+yes
+ 
+checking for sasl_callback_ft...  
+no
+ 
+checking for print macros for integers (C99 section 7.8.1)...  
+yes
+ 
+checking for an ANSI C-conforming const...  
+yes
+ 
+checking for socklen_t...  
+yes
+ 
+checking for endianness...  
+little
+ 
+checking for htonll...  
+no
+ 
+checking for library containing pthread_create...  
+none required
+ 
+checking for mlockall...  
+yes
+ 
+checking for getpagesizes...  
+no
+ 
+checking for memcntl...  
+no
+ 
+checking for sigignore...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for accept4...  
+yes
+ 
+checking for getopt_long...  
+yes
+ 
+checking for alignment...  
+none
+ 
+checking for GCC atomics...  
+yes
+ 
+checking for GCC 64bit atomics...  
+no
+ 
+checking for setppriv...  
+no
+ 
+checking for pledge...  
+no
+ 
+checking umem.h usability...  
+no
+ 
+checking umem.h presence...  
+no
+ 
+checking for umem.h...  
+no
+ 
+checking for xml2rfc...  
+no
+ 
+checking for xsltproc...  
+/usr/bin/xsltproc
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/bash ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating doc/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing depfiles commands
+ 
+make[4]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+cd .. && make  am--refresh
+ 
+make[4]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing aclocal-1.16 
+ 
+ cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing automake-1.16 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoconf
+ 
+/bin/bash ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --enable-pslab --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-pc-linux-gnu
+ 
+checking host system type...  
+x86_64-pc-linux-gnu
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking whether gcc understands -c and -o together...  
+yes
+ 
+checking whether make supports the include directive...  
+yes (GNU style)
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for icc in use...  
+no
+ 
+checking for clang in use...  
+no
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking whether __SUNPRO_C is declared...  
+no
+ 
+checking for gcc option to accept ISO C99...  
+none needed
+ 
+checking sasl/sasl.h usability...  
+no
+ 
+checking sasl/sasl.h presence...  
+no
+ 
+checking for sasl/sasl.h...  
+no
+ 
+checking for gcov...  
+/usr/bin/gcov
+ 
+checking for main in -lgcov...  
+yes
+ 
+checking for library containing clock_gettime...  
+none required
+ 
+checking for library containing socket...  
+none required
+ 
+checking for library containing gethostbyname...  
+none required
+ 
+checking for libevent directory...  
+(system)
+ 
+checking for library containing umem_cache_create...  
+no
+ 
+checking for library containing gethugepagesizes...  
+no
+ 
+checking for stdbool.h that conforms to C99...  
+yes
+ 
+checking for _Bool...  
+yes
+ 
+checking for inttypes.h...  
+(cached)  
+yes
+ 
+checking for sasl_callback_ft...  
+no
+ 
+checking for print macros for integers (C99 section 7.8.1)...  
+yes
+ 
+checking for an ANSI C-conforming const...  
+yes
+ 
+checking for socklen_t...  
+yes
+ 
+checking for endianness...  
+little
+ 
+checking for htonll...  
+no
+ 
+checking for library containing pthread_create...  
+none required
+ 
+checking for mlockall...  
+yes
+ 
+checking for getpagesizes...  
+no
+ 
+checking for memcntl...  
+no
+ 
+checking for sigignore...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for accept4...  
+yes
+ 
+checking for getopt_long...  
+yes
+ 
+checking for alignment...  
+none
+ 
+checking for GCC atomics...  
+yes
+ 
+checking for GCC 64bit atomics...  
+no
+ 
+checking for setppriv...  
+no
+ 
+checking for pledge...  
+no
+ 
+checking umem.h usability...  
+no
+ 
+checking umem.h presence...  
+no
+ 
+checking for umem.h...  
+no
+ 
+checking for xml2rfc...  
+no
+ 
+checking for xsltproc...  
+/usr/bin/xsltproc
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/bash ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating doc/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing depfiles commands
+ 
+make[4]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+cd .. && make  am--refresh
+ 
+make[4]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing aclocal-1.16 
+ 
+ cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing automake-1.16 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoconf
+ 
+/bin/bash ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --enable-pslab --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-pc-linux-gnu
+ 
+checking host system type...  
+x86_64-pc-linux-gnu
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking whether gcc understands -c and -o together...  
+yes
+ 
+checking whether make supports the include directive...  
+yes (GNU style)
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for icc in use...  
+no
+ 
+checking for clang in use...  
+no
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking whether __SUNPRO_C is declared...  
+no
+ 
+checking for gcc option to accept ISO C99...  
+none needed
+ 
+checking sasl/sasl.h usability...  
+no
+ 
+checking sasl/sasl.h presence...  
+no
+ 
+checking for sasl/sasl.h...  
+no
+ 
+checking for gcov...  
+/usr/bin/gcov
+ 
+checking for main in -lgcov...  
+yes
+ 
+checking for library containing clock_gettime...  
+none required
+ 
+checking for library containing socket...  
+none required
+ 
+checking for library containing gethostbyname...  
+none required
+ 
+checking for libevent directory...  
+(system)
+ 
+checking for library containing umem_cache_create...  
+no
+ 
+checking for library containing gethugepagesizes...  
+no
+ 
+checking for stdbool.h that conforms to C99...  
+yes
+ 
+checking for _Bool...  
+yes
+ 
+checking for inttypes.h...  
+(cached)  
+yes
+ 
+checking for sasl_callback_ft...  
+no
+ 
+checking for print macros for integers (C99 section 7.8.1)...  
+yes
+ 
+checking for an ANSI C-conforming const...  
+yes
+ 
+checking for socklen_t...  
+yes
+ 
+checking for endianness...  
+little
+ 
+checking for htonll...  
+no
+ 
+checking for library containing pthread_create...  
+none required
+ 
+checking for mlockall...  
+yes
+ 
+checking for getpagesizes...  
+no
+ 
+checking for memcntl...  
+no
+ 
+checking for sigignore...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for accept4...  
+yes
+ 
+checking for getopt_long...  
+yes
+ 
+checking for alignment...  
+none
+ 
+checking for GCC atomics...  
+yes
+ 
+checking for GCC 64bit atomics...  
+no
+ 
+checking for setppriv...  
+no
+ 
+checking for pledge...  
+no
+ 
+checking umem.h usability...  
+no
+ 
+checking umem.h presence...  
+no
+ 
+checking for umem.h...  
+no
+ 
+checking for xml2rfc...  
+no
+ 
+checking for xsltproc...  
+/usr/bin/xsltproc
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/bash ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating doc/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing depfiles commands
+ 
+make[4]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+make[4]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing aclocal-1.16 
+ 
+ cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing automake-1.16 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoconf
+ 
+/bin/bash ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --enable-pslab --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-pc-linux-gnu
+ 
+checking host system type...  
+x86_64-pc-linux-gnu
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking whether gcc understands -c and -o together...  
+yes
+ 
+checking whether make supports the include directive...  
+yes (GNU style)
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for icc in use...  
+no
+ 
+checking for clang in use...  
+no
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking whether __SUNPRO_C is declared...  
+no
+ 
+checking for gcc option to accept ISO C99...  
+none needed
+ 
+checking sasl/sasl.h usability...  
+no
+ 
+checking sasl/sasl.h presence...  
+no
+ 
+checking for sasl/sasl.h...  
+no
+ 
+checking for gcov...  
+/usr/bin/gcov
+ 
+checking for main in -lgcov...  
+yes
+ 
+checking for library containing clock_gettime...  
+none required
+ 
+checking for library containing socket...  
+none required
+ 
+checking for library containing gethostbyname...  
+none required
+ 
+checking for libevent directory...  
+(system)
+ 
+checking for library containing umem_cache_create...  
+no
+ 
+checking for library containing gethugepagesizes...  
+no
+ 
+checking for stdbool.h that conforms to C99...  
+yes
+ 
+checking for _Bool...  
+yes
+ 
+checking for inttypes.h...  
+(cached)  
+yes
+ 
+checking for sasl_callback_ft...  
+no
+ 
+checking for print macros for integers (C99 section 7.8.1)...  
+yes
+ 
+checking for an ANSI C-conforming const...  
+yes
+ 
+checking for socklen_t...  
+yes
+ 
+checking for endianness...  
+little
+ 
+checking for htonll...  
+no
+ 
+checking for library containing pthread_create...  
+none required
+ 
+checking for mlockall...  
+yes
+ 
+checking for getpagesizes...  
+no
+ 
+checking for memcntl...  
+no
+ 
+checking for sigignore...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for accept4...  
+yes
+ 
+checking for getopt_long...  
+yes
+ 
+checking for alignment...  
+none
+ 
+checking for GCC atomics...  
+yes
+ 
+checking for GCC 64bit atomics...  
+no
+ 
+checking for setppriv...  
+no
+ 
+checking for pledge...  
+no
+ 
+checking umem.h usability...  
+no
+ 
+checking umem.h presence...  
+no
+ 
+checking for umem.h...  
+no
+ 
+checking for xml2rfc...  
+no
+ 
+checking for xsltproc...  
+/usr/bin/xsltproc
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/bash ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating doc/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing depfiles commands
+ 
+make[4]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/doc'
+ 
+make[2]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/doc'
+ 
+make[2]: Entering directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing aclocal-1.16 
+ 
+ cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing automake-1.16 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoconf
+ 
+/bin/bash ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --enable-pslab --no-create --no-recursion
+ 
+checking build system type...  
+x86_64-pc-linux-gnu
+ 
+checking host system type...  
+x86_64-pc-linux-gnu
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name...  
+a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking whether gcc understands -c and -o together...  
+yes
+ 
+checking whether make supports the include directive...  
+yes (GNU style)
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking how to run the C preprocessor...  
+gcc -E
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for icc in use...  
+no
+ 
+checking for clang in use...  
+no
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking whether __SUNPRO_C is declared...  
+no
+ 
+checking for gcc option to accept ISO C99...  
+none needed
+ 
+checking sasl/sasl.h usability...  
+no
+ 
+checking sasl/sasl.h presence...  
+no
+ 
+checking for sasl/sasl.h...  
+no
+ 
+checking for gcov...  
+/usr/bin/gcov
+ 
+checking for main in -lgcov...  
+yes
+ 
+checking for library containing clock_gettime...  
+none required
+ 
+checking for library containing socket...  
+none required
+ 
+checking for library containing gethostbyname...  
+none required
+ 
+checking for libevent directory...  
+(system)
+ 
+checking for library containing umem_cache_create...  
+no
+checking for library containing gethugepagesizes...  
+no
+ 
+checking for stdbool.h that conforms to C99...  
+yes
+ 
+checking for _Bool...  
+yes
+ 
+checking for inttypes.h...  
+(cached)  
+yes
+ 
+checking for sasl_callback_ft...  
+no
+ 
+checking for print macros for integers (C99 section 7.8.1)...  
+yes
+ 
+checking for an ANSI C-conforming const...  
+yes
+ 
+checking for socklen_t...  
+yes
+ 
+checking for endianness...  
+little
+ 
+checking for htonll...  
+no
+ 
+checking for library containing pthread_create...  
+none required
+ 
+checking for mlockall...  
+yes
+ 
+checking for getpagesizes...  
+no
+ 
+checking for memcntl...  
+no
+ 
+checking for sigignore...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for accept4...  
+yes
+ 
+checking for getopt_long...  
+yes
+ 
+checking for alignment...  
+none
+ 
+checking for GCC atomics...  
+yes
+ 
+checking for GCC 64bit atomics...  
+no
+ 
+checking for setppriv...  
+no
+ 
+checking for pledge...  
+no
+ 
+checking umem.h usability...  
+no
+ 
+checking umem.h presence...  
+no
+ 
+checking for umem.h...  
+no
+ 
+checking for xml2rfc...  
+no
+ 
+checking for xsltproc...  
+/usr/bin/xsltproc
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/bash ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating doc/Makefile
+ 
+config.status: creating config.h
+ 
+config.status: config.h is unchanged
+ 
+config.status: executing depfiles commands
+ 
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-memcached.o -MD -MP -MF .deps/memcached-memcached.Tpo -c -o memcached-memcached.o `test -f 'memcached.c' || echo './'`memcached.c
+mv -f .deps/memcached-memcached.Tpo .deps/memcached-memcached.Po
+ 
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-hash.o -MD -MP -MF .deps/memcached-hash.Tpo -c -o memcached-hash.o `test -f 'hash.c' || echo './'`hash.c
+mv -f .deps/memcached-hash.Tpo .deps/memcached-hash.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-jenkins_hash.o -MD -MP -MF .deps/memcached-jenkins_hash.Tpo -c -o memcached-jenkins_hash.o `test -f 'jenkins_hash.c' || echo './'`jenkins_hash.c
+mv -f .deps/memcached-jenkins_hash.Tpo .deps/memcached-jenkins_hash.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-murmur3_hash.o -MD -MP -MF .deps/memcached-murmur3_hash.Tpo -c -o memcached-murmur3_hash.o `test -f 'murmur3_hash.c' || echo './'`murmur3_hash.c
+mv -f .deps/memcached-murmur3_hash.Tpo .deps/memcached-murmur3_hash.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-slabs.o -MD -MP -MF .deps/memcached-slabs.Tpo -c -o memcached-slabs.o `test -f 'slabs.c' || echo './'`slabs.c
+mv -f .deps/memcached-slabs.Tpo .deps/memcached-slabs.Po
+ 
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-items.o -MD -MP -MF .deps/memcached-items.Tpo -c -o memcached-items.o `test -f 'items.c' || echo './'`items.c
+mv -f .deps/memcached-items.Tpo .deps/memcached-items.Po
+ 
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-assoc.o -MD -MP -MF .deps/memcached-assoc.Tpo -c -o memcached-assoc.o `test -f 'assoc.c' || echo './'`assoc.c
+mv -f .deps/memcached-assoc.Tpo .deps/memcached-assoc.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-thread.o -MD -MP -MF .deps/memcached-thread.Tpo -c -o memcached-thread.o `test -f 'thread.c' || echo './'`thread.c
+mv -f .deps/memcached-thread.Tpo .deps/memcached-thread.Po
+ 
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-daemon.o -MD -MP -MF .deps/memcached-daemon.Tpo -c -o memcached-daemon.o `test -f 'daemon.c' || echo './'`daemon.c
+mv -f .deps/memcached-daemon.Tpo .deps/memcached-daemon.Po
+ 
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-stats.o -MD -MP -MF .deps/memcached-stats.Tpo -c -o memcached-stats.o `test -f 'stats.c' || echo './'`stats.c
+mv -f .deps/memcached-stats.Tpo .deps/memcached-stats.Po
+ 
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-util.o -MD -MP -MF .deps/memcached-util.Tpo -c -o memcached-util.o `test -f 'util.c' || echo './'`util.c
+mv -f .deps/memcached-util.Tpo .deps/memcached-util.Po
+ 
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-bipbuffer.o -MD -MP -MF .deps/memcached-bipbuffer.Tpo -c -o memcached-bipbuffer.o `test -f 'bipbuffer.c' || echo './'`bipbuffer.c
+mv -f .deps/memcached-bipbuffer.Tpo .deps/memcached-bipbuffer.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-logger.o -MD -MP -MF .deps/memcached-logger.Tpo -c -o memcached-logger.o `test -f 'logger.c' || echo './'`logger.c
+mv -f .deps/memcached-logger.Tpo .deps/memcached-logger.Po
+ 
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-crawler.o -MD -MP -MF .deps/memcached-crawler.Tpo -c -o memcached-crawler.o `test -f 'crawler.c' || echo './'`crawler.c
+mv -f .deps/memcached-crawler.Tpo .deps/memcached-crawler.Po
+ 
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-itoa_ljust.o -MD -MP -MF .deps/memcached-itoa_ljust.Tpo -c -o memcached-itoa_ljust.o `test -f 'itoa_ljust.c' || echo './'`itoa_ljust.c
+mv -f .deps/memcached-itoa_ljust.Tpo .deps/memcached-itoa_ljust.Po
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-slab_automove.o -MD -MP -MF .deps/memcached-slab_automove.Tpo -c -o memcached-slab_automove.o `test -f 'slab_automove.c' || echo './'`slab_automove.c
+mv -f .deps/memcached-slab_automove.Tpo .deps/memcached-slab_automove.Po
+ 
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-cache.o -MD -MP -MF .deps/memcached-cache.Tpo -c -o memcached-cache.o `test -f 'cache.c' || echo './'`cache.c
+mv -f .deps/memcached-cache.Tpo .deps/memcached-cache.Po
+ 
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-pslab.o -MD -MP -MF .deps/memcached-pslab.Tpo -c -o memcached-pslab.o `test -f 'pslab.c' || echo './'`pslab.c
+mv -f .deps/memcached-pslab.Tpo .deps/memcached-pslab.Po
+ 
+rm -f memcached
+gcc  -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls   -o memcached memcached-memcached.o memcached-hash.o memcached-jenkins_hash.o memcached-murmur3_hash.o memcached-slabs.o memcached-items.o memcached-assoc.o memcached-thread.o memcached-daemon.o memcached-stats.o memcached-util.o memcached-bipbuffer.o memcached-logger.o memcached-crawler.o memcached-itoa_ljust.o memcached-slab_automove.o memcached-cache.o      memcached-pslab.o   -lpmem -levent 
+ 
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-memcached.o -MD -MP -MF .deps/memcached_debug-memcached.Tpo -c -o memcached_debug-memcached.o `test -f 'memcached.c' || echo './'`memcached.c
+mv -f .deps/memcached_debug-memcached.Tpo .deps/memcached_debug-memcached.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-hash.o -MD -MP -MF .deps/memcached_debug-hash.Tpo -c -o memcached_debug-hash.o `test -f 'hash.c' || echo './'`hash.c
+mv -f .deps/memcached_debug-hash.Tpo .deps/memcached_debug-hash.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-jenkins_hash.o -MD -MP -MF .deps/memcached_debug-jenkins_hash.Tpo -c -o memcached_debug-jenkins_hash.o `test -f 'jenkins_hash.c' || echo './'`jenkins_hash.c
+mv -f .deps/memcached_debug-jenkins_hash.Tpo .deps/memcached_debug-jenkins_hash.Po
+ 
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-murmur3_hash.o -MD -MP -MF .deps/memcached_debug-murmur3_hash.Tpo -c -o memcached_debug-murmur3_hash.o `test -f 'murmur3_hash.c' || echo './'`murmur3_hash.c
+mv -f .deps/memcached_debug-murmur3_hash.Tpo .deps/memcached_debug-murmur3_hash.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-slabs.o -MD -MP -MF .deps/memcached_debug-slabs.Tpo -c -o memcached_debug-slabs.o `test -f 'slabs.c' || echo './'`slabs.c
+mv -f .deps/memcached_debug-slabs.Tpo .deps/memcached_debug-slabs.Po
+ 
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-items.o -MD -MP -MF .deps/memcached_debug-items.Tpo -c -o memcached_debug-items.o `test -f 'items.c' || echo './'`items.c
+mv -f .deps/memcached_debug-items.Tpo .deps/memcached_debug-items.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-assoc.o -MD -MP -MF .deps/memcached_debug-assoc.Tpo -c -o memcached_debug-assoc.o `test -f 'assoc.c' || echo './'`assoc.c
+mv -f .deps/memcached_debug-assoc.Tpo .deps/memcached_debug-assoc.Po
+ 
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-thread.o -MD -MP -MF .deps/memcached_debug-thread.Tpo -c -o memcached_debug-thread.o `test -f 'thread.c' || echo './'`thread.c
+mv -f .deps/memcached_debug-thread.Tpo .deps/memcached_debug-thread.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-daemon.o -MD -MP -MF .deps/memcached_debug-daemon.Tpo -c -o memcached_debug-daemon.o `test -f 'daemon.c' || echo './'`daemon.c
+mv -f .deps/memcached_debug-daemon.Tpo .deps/memcached_debug-daemon.Po
+ 
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-stats.o -MD -MP -MF .deps/memcached_debug-stats.Tpo -c -o memcached_debug-stats.o `test -f 'stats.c' || echo './'`stats.c
+mv -f .deps/memcached_debug-stats.Tpo .deps/memcached_debug-stats.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-util.o -MD -MP -MF .deps/memcached_debug-util.Tpo -c -o memcached_debug-util.o `test -f 'util.c' || echo './'`util.c
+mv -f .deps/memcached_debug-util.Tpo .deps/memcached_debug-util.Po
+ 
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-bipbuffer.o -MD -MP -MF .deps/memcached_debug-bipbuffer.Tpo -c -o memcached_debug-bipbuffer.o `test -f 'bipbuffer.c' || echo './'`bipbuffer.c
+mv -f .deps/memcached_debug-bipbuffer.Tpo .deps/memcached_debug-bipbuffer.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-logger.o -MD -MP -MF .deps/memcached_debug-logger.Tpo -c -o memcached_debug-logger.o `test -f 'logger.c' || echo './'`logger.c
+mv -f .deps/memcached_debug-logger.Tpo .deps/memcached_debug-logger.Po
+ 
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-crawler.o -MD -MP -MF .deps/memcached_debug-crawler.Tpo -c -o memcached_debug-crawler.o `test -f 'crawler.c' || echo './'`crawler.c
+mv -f .deps/memcached_debug-crawler.Tpo .deps/memcached_debug-crawler.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-itoa_ljust.o -MD -MP -MF .deps/memcached_debug-itoa_ljust.Tpo -c -o memcached_debug-itoa_ljust.o `test -f 'itoa_ljust.c' || echo './'`itoa_ljust.c
+mv -f .deps/memcached_debug-itoa_ljust.Tpo .deps/memcached_debug-itoa_ljust.Po
+ 
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-slab_automove.o -MD -MP -MF .deps/memcached_debug-slab_automove.Tpo -c -o memcached_debug-slab_automove.o `test -f 'slab_automove.c' || echo './'`slab_automove.c
+mv -f .deps/memcached_debug-slab_automove.Tpo .deps/memcached_debug-slab_automove.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-cache.o -MD -MP -MF .deps/memcached_debug-cache.Tpo -c -o memcached_debug-cache.o `test -f 'cache.c' || echo './'`cache.c
+mv -f .deps/memcached_debug-cache.Tpo .deps/memcached_debug-cache.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-pslab.o -MD -MP -MF .deps/memcached_debug-pslab.Tpo -c -o memcached_debug-pslab.o `test -f 'pslab.c' || echo './'`pslab.c
+mv -f .deps/memcached_debug-pslab.Tpo .deps/memcached_debug-pslab.Po
+ 
+rm -f memcached-debug
+gcc -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls   -o memcached-debug memcached_debug-memcached.o memcached_debug-hash.o memcached_debug-jenkins_hash.o memcached_debug-murmur3_hash.o memcached_debug-slabs.o memcached_debug-items.o memcached_debug-assoc.o memcached_debug-thread.o memcached_debug-daemon.o memcached_debug-stats.o memcached_debug-util.o memcached_debug-bipbuffer.o memcached_debug-logger.o memcached_debug-crawler.o memcached_debug-itoa_ljust.o memcached_debug-slab_automove.o memcached_debug-cache.o      memcached_debug-pslab.o -lgcov   -lpmem -levent 
+ 
+gcc -DHAVE_CONFIG_H -I.     -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT sizes.o -MD -MP -MF .deps/sizes.Tpo -c -o sizes.o sizes.c
+mv -f .deps/sizes.Tpo .deps/sizes.Po
+rm -f sizes
+gcc  -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls   -o sizes sizes.o  -levent 
+ 
+gcc -DHAVE_CONFIG_H -I.     -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT testapp.o -MD -MP -MF .deps/testapp.Tpo -c -o testapp.o testapp.c
+mv -f .deps/testapp.Tpo .deps/testapp.Po
+ 
+gcc -DHAVE_CONFIG_H -I.     -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT util.o -MD -MP -MF .deps/util.Tpo -c -o util.o util.c
+mv -f .deps/util.Tpo .deps/util.Po
+gcc -DHAVE_CONFIG_H -I.     -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT cache.o -MD -MP -MF .deps/cache.Tpo -c -o cache.o cache.c
+mv -f .deps/cache.Tpo .deps/cache.Po
+rm -f testapp
+gcc  -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls   -o testapp testapp.o util.o cache.o  -levent 
+ 
+gcc -DHAVE_CONFIG_H -I.     -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT timedrun.o -MD -MP -MF .deps/timedrun.Tpo -c -o timedrun.o timedrun.c
+mv -f .deps/timedrun.Tpo .deps/timedrun.Po
+ 
+rm -f timedrun
+gcc  -g -O2 -pthread -pthread -Wall -Werror -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls   -o timedrun timedrun.o  -levent 
+ 
+(CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached/missing autoheader)
+rm -f stamp-h1
+touch config.h.in
+rm -f stamp-h1
+cd . && /bin/bash ./config.status config.h
+test -f config.h || rm -f stamp-h1
+test -f config.h || make  stamp-h1
+ 
+make[2]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+make[1]: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 
+make: Leaving directory '/mnt/AA50F1DA50F1AD67/ASPLOS22/baseline/logging/memcached'
+ 

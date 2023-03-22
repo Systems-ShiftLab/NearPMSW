@@ -1,0 +1,43 @@
+{
+    "db_bench": {
+        "repo_url": "https://github.com/pmem/pmemkv-bench.git",
+        "commit": "HEAD",
+        "env": {}
+    },
+    "pmemkv": {
+        "repo_url": "https://github.com/pmem/pmemkv.git",
+        "commit": "HEAD",
+        "cmake_params": [
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DENGINE_CMAP=1",
+            "-DENGINE_CSMAP=1",
+            "-DENGINE_RADIX=1",
+            "-DENGINE_STREE=1",
+            "-DENGINE_ROBINHOOD=1",
+            "-DBUILD_JSON_CONFIG=1",
+            "-DCXX_STANDARD=20",
+            "-DBUILD_TESTS=OFF",
+            "-DBUILD_DOC=OFF",
+            "-DBUILD_EXAMPLES=OFF"
+        ],
+        "env": {
+            "CC": "gcc",
+            "CXX": "g++"
+        }
+    },
+    "libpmemobjcpp": {
+        "repo_url": "https://github.com/pmem/libpmemobj-cpp.git",
+        "commit": "HEAD",
+        "cmake_params": [
+            "-DBUILD_EXAMPLES=OFF",
+            "-DBUILD_TESTS=OFF",
+            "-DBUILD_DOC=OFF",
+            "-DBUILD_BENCHMARKS=OFF",
+            "-DCMAKE_BUILD_TYPE=Release"
+        ],
+        "env": {
+            "CC": "gcc",
+            "CXX": "g++"
+        }
+    }
+}

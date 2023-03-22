@@ -1,0 +1,11 @@
+./bin/ycsb run memcached -s -P workloads/w1         -p "memcached.hosts=127.0.0.1" > outputLoad.txt
+./bin/ycsb run redis -s -P workloads/w1         -p "redis.host=127.0.0.1" -p "redis.port=6379" > outputLoad.txt
+./bin/ycsb run redis -s -p measurement.histogram.verbose=true -P workloads/w1         -p "redis.host=127.0.0.1" -p "redis.port=6379" > outputLoad.txt
+./bin/ycsb run memcached -s -p measurement.histogram.verbose=true -P workloads/w1         -p "memcached.hosts=127.0.0.1" > outputLoad.txt
+grep INSERT outputLoad.txt > time
+awk -F "," '{print $2}' time 
+
+sudo ./bin/ycsb run redis -s -p measurement.interval=both -p  histogram.buckets=1 -p measurementtype=hdrhistogram -p hdrhistogram.fileoutput=true  -p measurement.interval=both -P workloads/w1         -p "redis.host=127.0.0.1" -p "redis.port=6379"
+sudo ./bin/ycsb run memcached -s -p measurement.interval=both -p  histogram.buckets=1 -p measurementtype=hdrhistogram -p hdrhistogram.fileoutput=true  -p measurement.interval=both -P workloads/w1         -p "memcached.host=127.0.0.1" -p "redis.port=6379"
+./HdrHistogram/HistogramLogProcessor -i ./INSERT.hdr -outputValueUnitRatio 1  >out
+awk -F "," '{print $1}' time 

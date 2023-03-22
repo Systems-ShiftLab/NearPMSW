@@ -1,0 +1,82 @@
+$date
+        2021-Apr-05 19:42:00
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " design_1_i/axis_data_fifo_1_M_AXIS_TREADY $end
+$var reg 32 # design_1_i/axis_data_fifo_1_M_AXIS_TDATA [31:0] $end
+$var reg 1 C design_1_i/<const1>_1 $end
+$var reg 1 D design_1_i/<const1>_2 $end
+$var reg 1 E design_1_i/<const1>_3 $end
+$var reg 1 F design_1_i/<const1> $end
+$var reg 1 G design_1_i/axis_data_fifo_1_M_AXIS_TVALID $end
+$var reg 1 H design_1_i/axis_data_fifo_1_M_AXIS_TLAST $end
+$var reg 1 I design_1_i/<const0>_1 $end
+$var reg 4 J design_1_i/axis_data_fifo_1_M_AXIS_TKEEP [3:0] $end
+$var reg 1 N design_1_i/<const0>_2 $end
+$var reg 1 O design_1_i/<const0> $end
+$var reg 1 P _TRIGGER $end
+$var reg 1 Q _WINDOW $end
+$var reg 1 R _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1"
+b10011011011100010001001000001000 #
+1C
+1D
+1E
+1F
+0G
+1H
+0I
+b1111 J
+0N
+0O
+0P
+1Q
+0R
+$end
+#256
+b0 #
+1G
+0H
+1P
+#338
+b100 #
+#339
+b0 #
+#355
+b10000000 #
+#356
+b0 #
+#384
+b100000000000000000000000000 #
+#385
+b0 #
+#425
+b100000000000000000000000 #
+#426
+b0 #
+#457
+b10000000000000000000000000000000 #
+#458
+b0 #
+#463
+b10000000000000000000000 #
+#464
+b0 #
+#477
+b100000000000000000000000 #
+#478
+b0 #
+#511
+1H
+#512
+0G

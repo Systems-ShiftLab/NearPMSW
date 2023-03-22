@@ -1,0 +1,19 @@
+$date
+        2022-Feb-10 12:12:26
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 64 " design_1_i/undolog_0_time_cycles [63:0] $end
+$var reg 64 b design_1_i/undolog_1_time_cycles [63:0] $end
+$var reg 64 D" design_1_i/undolog_2_time_cycles [63:0] $end
+$var reg 64 &# design_1_i/undolog_3_time_cycles [63:0] $end
+$var reg 1 f# _TRIGGER $end
+$var reg 1 g# _WINDOW $end
+$var reg 1 h# _GAP $end
+$upscope $end
+$enddefinitions $end

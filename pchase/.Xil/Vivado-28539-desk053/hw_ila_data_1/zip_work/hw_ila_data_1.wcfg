@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/media/oem/AA50F1DA50F1AD67/NDP-vivado-main/Undolog/Undolog/Undolog.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="8461fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="269"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject type="array" fp_name="design_1_i/addrmonitor_0_count">
+      <obj_property name="ElementShortName">design_1_i/addrmonitor_0_count[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addrmonitor_0_count[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/addrmonitor_0_offset">
+      <obj_property name="ElementShortName">design_1_i/addrmonitor_0_offset[63:0]</obj_property>
+      <obj_property name="ObjectShortName">addrmonitor_0_offset[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/addrmonitor_0_physicaladdr">
+      <obj_property name="ElementShortName">design_1_i/addrmonitor_0_physicaladdr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addrmonitor_0_physicaladdr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/addrmonitor_0_pmem_obj_offset_valid">
+      <obj_property name="ElementShortName">design_1_i/addrmonitor_0_pmem_obj_offset_valid</obj_property>
+      <obj_property name="ObjectShortName">addrmonitor_0_pmem_obj_offset_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/addrmonitor_0_state">
+      <obj_property name="ElementShortName">design_1_i/addrmonitor_0_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">addrmonitor_0_state[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/addrmonitor_0_virtualaddr">
+      <obj_property name="ElementShortName">design_1_i/addrmonitor_0_virtualaddr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">addrmonitor_0_virtualaddr[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/xdma_0_axi_aresetn">
+      <obj_property name="ElementShortName">design_1_i/xdma_0_axi_aresetn</obj_property>
+      <obj_property name="ObjectShortName">xdma_0_axi_aresetn</obj_property>
+   </wvobject>
+</wave_config>

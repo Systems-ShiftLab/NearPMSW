@@ -1,0 +1,1 @@
+Sample in Buffer,Sample in Window,TRIGGER,design_1_i/addrmonitor_0_state[2:0],design_1_i/addrmonitor_0_physicaladdr[31:0],design_1_i/addrmonitor_0_pmem_obj_offset[63:0],design_1_i/addrmonitor_0_virtualaddr_out[63:0],design_1_i/addrmonitor_0_count[5:0],design_1_i/xdma_0_axi_aresetn,design_1_i/addrmonitor_0_pmem_obj_offset_valid

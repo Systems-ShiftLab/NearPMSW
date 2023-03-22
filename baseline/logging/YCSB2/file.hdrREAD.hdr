@@ -1,0 +1,4 @@
+#[Logging for: READ]
+#[Histogram log format version 1.1]
+#[StartTime: 1664917514.027 (seconds since epoch), Tue Oct 04 17:05:14 EDT 2022]
+"StartTimestamp","Interval_Length","Interval_Max","Interval_Compressed_Histogram"
